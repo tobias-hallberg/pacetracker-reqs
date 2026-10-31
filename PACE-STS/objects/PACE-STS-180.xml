@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-180">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">ReconnectingHeartRateMonitorTest.the previous reading isn't current after a reconnect</attr>
+  <description>Steps: Run ReconnectingHeartRateMonitorTest.the previous reading isn't current after a reconnect.
+Expected: After a reconnect the connection reports no heart rate until the first new reading.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-185">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">DatabaseFilesSizeTest</attr>
+  <description>Steps: Run DatabaseFilesSizeTest.
+Expected: The size adds the database file and its companion files, leaving out other files.</description>
+</object>

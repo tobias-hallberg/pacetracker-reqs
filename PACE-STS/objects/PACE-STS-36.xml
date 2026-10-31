@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-36">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east. Accuracy threshold: 20 m.

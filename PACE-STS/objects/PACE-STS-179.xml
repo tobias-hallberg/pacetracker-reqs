@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-179">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">LiveSessionMetricsTest</attr>
+  <description>Steps: Run LiveSessionMetricsTest.
+Expected: Distance comes from smoothed positions; a location fix worse than 20 m adds no distance but stays on the route; the first location fix after a resume adds 0 m and the totals stay; a climb during a pause adds no elevation gain; steps during a pause are not counted. Uses a stand-in distance function, so the WGS-84 calculation itself is covered by PACE-STS-35.</description>
+</object>

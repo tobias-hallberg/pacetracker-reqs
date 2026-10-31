@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-11">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: location permission denied, then granted with device location switched off. Steps: 1. Select Start in each case.

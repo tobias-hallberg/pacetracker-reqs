@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-183">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">StatsCalculatorTest</attr>
+  <description>Steps: Run StatsCalculatorTest.
+Expected: Each figure covers the selected period only, by start date in the device time zone; each selector entry covers its period; the change compares with the period directly before, truncated to a whole percentage, with none for whole history or a comparison period without distance; a workout of 0 m does not hide the peak pace.</description>
+</object>

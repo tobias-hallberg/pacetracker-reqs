@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-115">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: with month selected, current-month workouts of 5.00 km in 25:00, 1.00 km in 10:00 and 12.00 km in 55:00; a 20.00 km workout in an earlier month.

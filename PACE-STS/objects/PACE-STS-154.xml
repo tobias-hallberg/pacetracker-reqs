@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-154">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: three saved workouts, one with heart rate, a storage provider that accepts writes.
-Steps: 1. Select the export row in Settings. 2. Choose a save location. 3. Unpack the written file. 4. Validate each GPX file against the GPX 1.1 schema. 5. Compare the JSON file with the Workout Detail screen of each workout.
-Expected: One ZIP file is written at the chosen location without a storage permission prompt. It holds 3 GPX files with 0 schema errors, one per workout, and one JSON file holding the workout figures, splits and heart rate figures of the 3 workouts, equal to the values shown.</description>
+Steps: 1. Select the export row in Settings. 2. Choose a save location. 3. Unpack the written file. 4. Validate each GPX file against the GPX 1.1 schema. 5. Compare workouts.json with the workout database.
+Expected: One ZIP file is written at the chosen location without a storage permission prompt. It holds 3 GPX files with 0 schema errors, one per workout, and one JSON file whose workout values, splits and route points equal the database, with 0 differences.</description>
 </object>

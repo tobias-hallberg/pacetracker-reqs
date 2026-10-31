@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-155">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
-  <description>Setup: a saved workout and a read-only storage provider.
-Steps: 1. Export to a writable location. 2. Export to the read-only provider.
-Expected: The app tells the user the archive was written in the first case and that it was not written in the second. Known defect: success is reported when no output stream is available.</description>
+  <description>Setup: a saved workout and a storage provider that fails while writing.
+Steps: 1. Export to a writable location. 2. Export to the failing provider. 3. List the failing provider's folder.
+Expected: The app tells the user the backup was saved in step 1 and that it failed in step 2, and step 3 shows no file left behind.</description>
 </object>

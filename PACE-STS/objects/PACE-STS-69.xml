@@ -5,6 +5,6 @@
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: paired strap, session recording; a screen recording or stopwatch is available.
-Steps: 1. Move the strap out of range or switch it off for 2 min. 2. Note the time of each Searching status shown on the Active screen. 3. Bring the strap back.
-Expected: The status changes to signal lost; the time between successive connection attempts (Searching statuses) is at most 30 s; after step 3 a bpm appears without user action.</description>
+Steps: 1. Move the strap out of range or switch it off for 2 min. 2. Note how long each signal lost status shows on the Active screen before Searching replaces it. 3. Bring the strap back.
+Expected: The status changes to signal lost; each signal lost status lasts at most 30 s, and Searching may then stay until the strap returns; after step 3 a bpm appears without user action.</description>
 </object>

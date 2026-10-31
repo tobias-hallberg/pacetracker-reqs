@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-182">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">RouteGeometryTest</attr>
+  <description>Steps: Run RouteGeometryTest.
+Expected: The camera bounds contain each location fix; one location fix or identical ones centre the camera instead of fitting bounds; the plain route fits inside its padding with north up and true proportions. The map itself is covered by PACE-STS-93 and PACE-STS-99.</description>
+</object>

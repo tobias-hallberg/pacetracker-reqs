@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-178">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">SessionNotificationTest</attr>
+  <description>Steps: Run SessionNotificationTest.
+Expected: The notification text gives the distance in kilometres or miles according to the distance unit.</description>
+</object>

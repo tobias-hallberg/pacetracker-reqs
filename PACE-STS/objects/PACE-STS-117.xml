@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-117">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: workouts in the current week, earlier weeks of the month, earlier months of the year and the previous year. Steps: 1. Open the Stats screen. 2. Select each of week, month, year and all in turn. 3. Read total distance.
-Expected: Totals equal the sums over the current week, current month, current year and all workouts. Fails today (selection has no effect).</description>
+Expected: Totals equal the sums over the current week, current month, current year and all workouts.</description>
 </object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-177">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">SessionJournalTest</attr>
+  <description>Steps: Run SessionJournalTest.
+Expected: A new process reads back the values and route of the last checkpoint, with the unfinished split as a partial split; a write cut short loses only that batch; a cleared journal has nothing to recover. This proves the file format only; the process ending is covered by PACE-STS-32.</description>
+</object>

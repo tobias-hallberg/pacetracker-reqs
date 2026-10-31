@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-184">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">FastestSegmentTest</attr>
+  <description>Steps: Run FastestSegmentTest.
+Expected: The record is the shortest time of a continuous segment wherever the segment starts; a route shorter than the distance has no record; movement across a gap in the location fixes does not count; inaccurate location fixes add no distance.</description>
+</object>

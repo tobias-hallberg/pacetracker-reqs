@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-181">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">ReconnectingHeartRateMonitorTest.connects once bluetooth is switched on</attr>
+  <description>Steps: Run ReconnectingHeartRateMonitorTest.connects once bluetooth is switched on.
+Expected: While Bluetooth is unavailable the status says so and no connection attempt starts; once it is available an attempt starts.</description>
+</object>

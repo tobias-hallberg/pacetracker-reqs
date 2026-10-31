@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-112">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: a build in which the storage delete call throws. Steps: 1. Open a workout. 2. Select delete and confirm. 3. Observe for 5 s.
-Expected: The user is told the deletion failed and the app keeps running. Fails today (process ends).</description>
+Expected: The user is told the deletion failed and the app keeps running.</description>
 </object>

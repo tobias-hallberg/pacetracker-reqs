@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-176">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">LiveSessionMetricsTest</attr>
+  <description>Steps: Run LiveSessionMetricsTest.
+Expected: After 10 s without a location fix the session reports a lost GPS signal; a new location fix of any accuracy ends it; a pause does not count towards the 10 s, which restart at the resume.</description>
+</object>

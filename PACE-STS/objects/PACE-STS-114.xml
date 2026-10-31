@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-114">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Test</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: device time zone UTC+10, device date in May; one workout started 1 May 07:00 local (30 April 21:00 UTC); older workouts in March; none after May.
 Steps: 1. Open the Stats screen with month selected.
-Expected: The figures for May include that workout. Fails today (UTC grouping, April).</description>
+Expected: The figures for May include that workout.</description>
 </object>

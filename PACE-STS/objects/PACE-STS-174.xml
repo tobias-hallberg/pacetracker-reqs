@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-174">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">BackupExporterTest</attr>
+  <description>Steps: Run BackupExporterTest.
+Expected: The archive holds one GPX file per workout and one JSON file; the JSON file holds each stored value, including the raw altitude that the GPX file smooths; empty values stay empty; a workout deleted during the export is skipped. This proves the file content only; the save itself is covered by PACE-STS-154.</description>
+</object>

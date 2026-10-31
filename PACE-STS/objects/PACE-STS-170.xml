@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-170">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Demonstration</attr>
   <attr name="execution">Manual</attr>
   <description>Steps: 1. Open the release build. 2. Find the screen that presents licences.

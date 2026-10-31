@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-17">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Demonstration</attr>
   <attr name="execution">Manual</attr>
   <description>Steps: 1. Start a session. 2. Press the system Back button until the Home screen shows. 3. Select the control on Home that returns to the session.

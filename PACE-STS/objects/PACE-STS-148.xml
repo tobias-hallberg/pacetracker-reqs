@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object id="PACE-STS-148">
   <attr name="type">Test</attr>
-  <attr name="status">Draft</attr>
+  <attr name="status">Active</attr>
   <attr name="verification-method">Demonstration</attr>
   <attr name="execution">Manual</attr>
   <description>Setup: fresh install.
 Steps: 1. Open Settings and read the Dark theme switch. 2. Turn the switch off. 3. Open each tab.
-Expected: The switch is on and the theme is dark on a fresh install; after step 2 each tab shows the light theme. Not testable today: Settings has no switch.</description>
+Expected: The switch is on and the theme is dark on a fresh install; after step 2 each tab shows the light theme.</description>
 </object>

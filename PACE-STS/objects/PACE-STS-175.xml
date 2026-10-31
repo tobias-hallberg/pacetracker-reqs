@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-175">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">BackupImporterTest</attr>
+  <description>Steps: Run BackupImporterTest.
+Expected: A restored workout equals the exported one; a saved workout is kept; a repeated import adds 0 workouts; a non-ZIP file, a ZIP without the JSON file, a truncated archive, one bad workout among good ones and a newer format version each add 0 workouts. This proves the restore logic only; the database and the messages are covered by PACE-STS-171.</description>
+</object>
