@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-62">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">Steps taken during a pause do not count; today they are added. No reading exists when the device lacks a step counter or the user denied the activity recognition permission; the session still records. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>Once per second in the recording state, the app shall set the step count to the step counter increase accumulated in the recording state since Start, or to 0 without a reading.</description>
+</object>

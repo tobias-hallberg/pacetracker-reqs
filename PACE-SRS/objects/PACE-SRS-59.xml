@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-59">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The app has no user profile in version 1, so a 70 kg body mass is assumed. The value is an estimate. The metabolic equivalent depends on the activity type chosen at Start. Basis: as implemented.</attr>
+  <description>Once per second in the recording state, the app shall set the calories to the metabolic equivalent (PACE-SRS-60, PACE-SRS-61) times 3.5 times 70 kg times elapsed minutes divided by 200, rounded to whole kcal.</description>
+</object>

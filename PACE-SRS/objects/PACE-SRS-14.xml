@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-14">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The activity type classifies the workout in History and Stats. Interval is out of v1 because it has no setup; workouts already saved as Interval still open. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the user selects Start, the app shall record the activity type chosen from Run, Walk and Hike on the session.</description>
+</object>

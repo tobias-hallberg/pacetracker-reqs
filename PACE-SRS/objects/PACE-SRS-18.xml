@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-18">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Back from the Active screen leads to Home, and the tab bar has no route back. The control is a banner on Home. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>While a session exists, the app shall offer a control on the Home screen that opens the Active screen of the session.</description>
+</object>

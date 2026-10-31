@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-21">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Runners stop at lights and for rest without ending the workout. Basis: both.</attr>
+  <description>When the user selects Pause, the app shall change the session to the paused state.</description>
+</object>

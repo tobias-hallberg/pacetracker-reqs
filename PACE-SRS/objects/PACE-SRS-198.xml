@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-198">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The user needs to know whether the restore worked. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When an import finishes, the app shall tell the user the number of workouts added, or that the import failed.</description>
+</object>

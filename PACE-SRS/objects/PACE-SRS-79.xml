@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-79">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A standard profile lets any compliant strap work. Basis: as implemented.</attr>
+  <description>The app shall read heart rate from a paired BLE sensor through the Heart Rate Measurement characteristic of Bluetooth Heart Rate Service 1.0.</description>
+</object>

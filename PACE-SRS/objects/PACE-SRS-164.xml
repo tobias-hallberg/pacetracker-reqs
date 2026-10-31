@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-164">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">The accent colour is a personal choice that changes the look of the whole app. Lime is the accent before any selection. Basis: as implemented.</attr>
+  <description>When the user selects an accent colour on the Settings screen, the app shall apply that accent colour to the app theme, choosing from Lime, Tangerine, Electric, Magenta, Amber and Violet.</description>
+</object>

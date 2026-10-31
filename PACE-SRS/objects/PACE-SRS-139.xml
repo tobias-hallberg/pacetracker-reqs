@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-139">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Splits cannot be recomputed from the stored summary values. Basis: as implemented.</attr>
+  <description>When a session finishes, the app shall store the splits of the workout, each with distance, duration and pace.</description>
+</object>

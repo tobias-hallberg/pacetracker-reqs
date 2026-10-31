@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-29">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Proposed</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The notification shows distance in kilometres today whatever the distance unit, which misleads a user who has chosen miles. Basis: inferred.</attr>
+  <description>While the session notification is shown, the app shall show the session distance in the distance unit.</description>
+</object>

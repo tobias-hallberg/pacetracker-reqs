@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-66">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Users read distance in their own unit. Basis: as implemented.</attr>
+  <description>On the app's screens, the app shall show the session distance and the distance of each workout in the distance unit chosen in Settings, using 1609.344 m per mile.</description>
+</object>

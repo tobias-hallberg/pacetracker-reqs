@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-150">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The privacy promise is that data stays on the device, and the user takes a backup with the export. Basis: both.</attr>
+  <description>The app shall exclude the workout database from cloud backup.</description>
+</object>

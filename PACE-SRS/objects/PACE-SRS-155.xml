@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-155">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Each permission is part of the privacy promise. The list leaves out background location, because recording runs in a foreground service. INTERNET and ACCESS_NETWORK_STATE exist for map tiles only. Basis: as implemented.</attr>
+  <description>The app shall limit the declared Android permissions to ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, FOREGROUND_SERVICE, FOREGROUND_SERVICE_LOCATION, FOREGROUND_SERVICE_CONNECTED_DEVICE, BLUETOOTH_SCAN, BLUETOOTH_CONNECT, BLUETOOTH, BLUETOOTH_ADMIN, POST_NOTIFICATIONS, ACTIVITY_RECOGNITION, WAKE_LOCK, INTERNET and ACCESS_NETWORK_STATE.</description>
+</object>

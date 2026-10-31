@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-43">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Quality</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Without notice the runner may finish with a silently short distance. Covers poor signal, location switched off and revoked permission. The app warns and keeps recording, with no automatic pause. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When no location fix has arrived for 10 s while a session is in the recording state, the app shall tell the user that the GPS signal is lost.</description>
+</object>

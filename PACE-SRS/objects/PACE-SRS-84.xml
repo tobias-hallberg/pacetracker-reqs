@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-84">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A runner may switch Bluetooth on after pressing Start; the code ends the connection for the session instead. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When Bluetooth is switched on during a session while the connection status is Bluetooth unavailable, the app shall start a connection attempt to the paired BLE sensor.</description>
+</object>

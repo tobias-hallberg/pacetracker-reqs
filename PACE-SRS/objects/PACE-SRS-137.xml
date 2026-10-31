@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-137">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Each unreported value stays empty, which differs from zero: a made-up zero would show as sea level, zero accuracy or zero heart rate. Basis: as implemented.</attr>
+  <description>When a location fix has a reported altitude, horizontal accuracy or vertical accuracy, the app shall store each reported value with the location fix.</description>
+</object>

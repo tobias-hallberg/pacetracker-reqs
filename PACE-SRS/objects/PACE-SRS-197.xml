@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-197">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A damaged or wrong file has to be harmless to the existing history. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the chosen file fails to read as an export archive, the app shall leave the saved workouts unchanged.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-199">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Most people repeat the same kind of workout, so the last one is the likely next one. A discarded session is not a saved workout, so it does not change the default. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>Until the user chooses an activity type on the Home screen, the app shall select the activity type of the latest saved workout, or Run when that workout is Interval or absent.</description>
+</object>

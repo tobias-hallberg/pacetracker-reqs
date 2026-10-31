@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-37">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Splits show pacing through the run. Basis: both.</attr>
+  <description>When a finished session has at least one split, the app shall show the pace of each split on the Summary screen.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-67">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Pace is the runner's main number and has to match the chosen distance unit. Basis: as implemented.</attr>
+  <description>The app shall show the current pace, average pace, split pace and peak pace in minutes and seconds per distance unit, using 1.609344 times the s/km value for s/mi.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-10">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Recording needs location; notification permission lets the session notification show and activity recognition lets the step count work. Basis: as implemented.</attr>
+  <description>When the user selects Start and the fine location permission is not granted, the app shall request location permission, notification permission on Android 13 or later and activity recognition permission on Android 10 or later.</description>
+</object>

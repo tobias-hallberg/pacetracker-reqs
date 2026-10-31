@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-191">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">This is the privacy promise: your data, like your tracks and logs, stays on the device. Map requests carry no workout data, but they do expose the displayed map area to the map provider. The design's no-network wording is replaced by this. Traffic has not yet been verified by a network capture. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>The app shall send workout data and app logs off the device only through an export the user starts.</description>
+</object>

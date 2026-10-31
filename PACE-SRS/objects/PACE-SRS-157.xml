@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-157">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">GPX 1.1 is read by common training services. Splits, calories and steps have no place in GPX, and PACE-SRS-193 covers them. Basis: both.</attr>
+  <description>When the user exports a workout, the app shall produce a GPX 1.1 document encoded as UTF-8 with the start time, the activity type as track name and the track points.</description>
+</object>

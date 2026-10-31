@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-34">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The runner sees the result of the run at once. Basis: both.</attr>
+  <description>When the session finishes while the Active screen is displayed, the app shall show the Summary screen for the session.</description>
+</object>

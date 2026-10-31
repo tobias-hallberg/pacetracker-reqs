@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-48">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Quality</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Distance accuracy is a quality target. The 3 % applies to a 5 km route, and the value is a starting point, to be confirmed by a field test. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the user covers a route of known length in the recording state under open sky, the app shall record a session distance within 3 % of the route length.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-36">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Heart rate figures appear only when a sensor was used. Basis: as implemented.</attr>
+  <description>When a finished session has recorded heart rate, the app shall show the average heart rate and the maximum heart rate in bpm on the Summary screen.</description>
+</object>

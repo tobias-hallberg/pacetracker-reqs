@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-138">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">An empty value differs from zero: History and Summary hide the heart rate cells when the value is empty. The value is in whole bpm. Time weighting stops a brief noisy stretch from skewing the average. Basis: as implemented.</attr>
+  <description>When a session finishes, the app shall store the average and maximum heart rate of the session as defined in PACE-SRS-90 and PACE-SRS-91, leaving each empty without readings.</description>
+</object>

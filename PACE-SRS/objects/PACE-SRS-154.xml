@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-154">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">PACE-SRS-191 states the privacy promise, and this limits the traffic that could break it. The limit covers bundled libraries, whose traffic has not yet been verified by a network capture. A map request exposes the displayed map area and the map key to the map provider. Basis: as implemented.</attr>
+  <description>The app shall limit outgoing network requests to retrieving map styles and map tiles from the map provider.</description>
+</object>

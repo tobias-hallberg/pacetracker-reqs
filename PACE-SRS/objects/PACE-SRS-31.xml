@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-31">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Current pace is the primary live reading, shown as the largest value. Basis: both.</attr>
+  <description>While a session exists, the app shall show the current pace on the Active screen.</description>
+</object>

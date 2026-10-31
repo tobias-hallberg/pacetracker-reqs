@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-170">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A damaged or older preference store needs a safe outcome, so the app starts normally. An unrecognised accent resolves to Lime. Basis: as implemented.</attr>
+  <description>If a stored preference is unreadable or holds an invalid value, the app shall use the default value of that preference.</description>
+</object>

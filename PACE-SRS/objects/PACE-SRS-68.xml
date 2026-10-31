@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-68">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Quality</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A clock change by the user or the network would otherwise corrupt the saved duration. Basis: as implemented.</attr>
+  <description>When the device clock changes during a session, the app shall continue the elapsed time without a jump.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-69">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A meaningless pace value, such as one at 0 m, would mislead the runner. Basis: as implemented.</attr>
+  <description>When a pace is 0 s/km or above 3600 s/km, the app shall show a dash placeholder in place of minutes and seconds.</description>
+</object>

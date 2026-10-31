@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-148">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Users keep their history in an update. Workouts recorded before heart rate support have empty heart rate values. Today every earlier schema version has a migration; PACE-SRS-190 covers the case with none. Basis: as implemented.</attr>
+  <description>When the user installs an update over an earlier release of the app, the app shall keep the workouts stored by the earlier release.</description>
+</object>

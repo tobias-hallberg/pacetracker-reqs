@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-11">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A denied permission leaves nothing recording and the user on the Home screen. Basis: as implemented.</attr>
+  <description>When the permission request from Start ends without the fine location permission granted, the app shall remain without a session.</description>
+</object>

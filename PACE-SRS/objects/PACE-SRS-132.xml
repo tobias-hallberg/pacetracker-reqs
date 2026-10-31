@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-132">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The design shows the selector, and today the choice is stored and has no effect. Month is selected when the screen opens, as the code does today. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the user selects an entry in the period selector on the Stats screen, the app shall set the selected period to the current week, current calendar month, current calendar year or whole saved history.</description>
+</object>

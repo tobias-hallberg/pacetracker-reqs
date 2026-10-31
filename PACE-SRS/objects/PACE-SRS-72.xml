@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-72">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Pairing connects a strap to the app. Basis: as implemented.</attr>
+  <description>When the user selects a sensor in the pairing sheet or in the ANT+ device picker, the app shall store the selected sensor as the paired sensor, replacing the previous paired sensor.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-106">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The app stays usable in builds without a map key, and no request goes to the map provider. The placeholder is a fixed curve and not the recorded route, and the design calls for real map tiles only. Basis: as implemented.</attr>
+  <description>When no map key is configured, the app shall display the placeholder graphic in place of the map.</description>
+</object>

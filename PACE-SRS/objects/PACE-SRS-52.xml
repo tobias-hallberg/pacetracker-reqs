@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-52">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Average pace is a headline value of the session and the workout. Basis: as implemented.</attr>
+  <description>Each second in the recording state, the app shall set the average pace to 1000 times the elapsed time in seconds divided by the session distance in metres, or to 0 s/km at 0 m.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-195">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A backup has to be restorable: workouts are excluded from Android backup, so a new phone or a reinstall otherwise starts empty. Altitudes in the GPX files are smoothed on export, so a restored route holds the smoothed values; the elevation gain comes from the JSON file. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the user chooses an export archive through the import row on the Settings screen, the app shall add the workouts in the archive to the saved workouts.</description>
+</object>

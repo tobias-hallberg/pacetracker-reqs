@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-183">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Quality</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Long hikes and events need a stated minimum recording length, measured on the reference device, a Sony Xperia XQ-DE54. The foreground service keeps the process alive and has no time limit in the code. The paused state is outside this requirement because it counts no time or distance. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>While a session is in the recording state with the screen off, the app shall continue recording for at least 4 h.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-45">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Recorded distance is the core output of the app. Smoothing reduces GPS jitter. As implemented, each smoothed position weights the newest location fix 0.3 and the previous smoothed position 0.7, the first location fix adds 0 m, and fixes in the paused state add nothing. Basis: as implemented.</attr>
+  <description>In the recording state, the app shall add to the session distance the WGS-84 distance between consecutive smoothed positions.</description>
+</object>

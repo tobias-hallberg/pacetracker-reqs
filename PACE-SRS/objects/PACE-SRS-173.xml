@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-173">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The user needs to know whether the backup exists. The code shows a result message, but reports success when no output stream is available. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When an export finishes, the app shall tell the user whether the export archive was written.</description>
+</object>

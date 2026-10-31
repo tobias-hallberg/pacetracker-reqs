@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-27">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Pausing without unlocking the phone is the common case on a run. Basis: as implemented.</attr>
+  <description>While the session notification is shown, the app shall offer a Pause action in the recording state and a Resume action in the paused state.</description>
+</object>

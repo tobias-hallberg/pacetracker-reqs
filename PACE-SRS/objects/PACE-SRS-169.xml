@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-169">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Choices that are lost on restart would be a defect to the user. Basis: both.</attr>
+  <description>When the user changes a preference, the app shall retain the new value after the app is closed and reopened.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-178">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The step counter is an optional feature and the manifest marks it as not required, so the store does not filter such devices out. Basis: as implemented.</attr>
+  <description>The app shall allow installation on devices without a step counter sensor.</description>
+</object>

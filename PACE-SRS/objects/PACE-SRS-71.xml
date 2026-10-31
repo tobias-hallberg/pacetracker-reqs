@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-71">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The runner picks a strap from the sensors in range. Signal strength is also shown but is a convenience. Basis: as implemented.</attr>
+  <description>While the pairing sheet is open, the app shall list each BLE sensor advertising the Heart Rate service of Bluetooth Heart Rate Service 1.0, by sensor name.</description>
+</object>

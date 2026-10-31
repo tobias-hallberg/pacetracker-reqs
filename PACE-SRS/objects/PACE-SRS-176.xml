@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-176">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The minimum version decides which devices can install the app, and the build targets Android 15 (API level 35). Android releases after 15 are outside the tested set until the owner extends it. Basis: as implemented.</attr>
+  <description>The app shall run on devices with Android 8.0 through Android 15.</description>
+</object>

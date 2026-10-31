@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-55">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The split pace is the value the user compares between splits. Basis: as implemented.</attr>
+  <description>When a split completes, the app shall set the split pace in s/km to 1000 times the elapsed time since the split started in seconds divided by the split length in metres.</description>
+</object>

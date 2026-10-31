@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-145">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">App-private storage keeps workout data away from other apps and supports the local-only promise. Root access and adb backup are outside the scope; the backup channels are covered separately. Basis: both.</attr>
+  <description>The app shall limit read access to the stored workouts to the app itself.</description>
+</object>

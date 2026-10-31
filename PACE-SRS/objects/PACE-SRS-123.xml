@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-123">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Deletion is permanent, so the user confirms first and no orphaned data remains. Splits, route, heart rate readings and note are removed together with the workout so none of them outlives the record. Cancelling leaves the workout unchanged. Basis: both.</attr>
+  <description>When the user confirms the deletion of a workout, the app shall delete the workout, splits, route, heart rate readings and note from local storage.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-56">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The final stretch of a workout would otherwise be missing from the split list. Basis: as implemented.</attr>
+  <description>When the user selects Finish and the current split has covered more than 0 m, the app shall save a final split shorter than one distance unit with the distance, elapsed time and split pace.</description>
+</object>

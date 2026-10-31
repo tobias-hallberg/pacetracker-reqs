@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-129">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The longest run tracks progress. Today it covers the latest month containing a workout. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>On the Stats screen, the app shall show the longest distance among the workouts started in the selected period.</description>
+</object>

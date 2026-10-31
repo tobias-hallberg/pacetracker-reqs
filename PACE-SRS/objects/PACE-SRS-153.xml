@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-153">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The design states there is no account and no profile, and the code contains no sign-in. Basis: both.</attr>
+  <description>The app shall operate without a user account.</description>
+</object>

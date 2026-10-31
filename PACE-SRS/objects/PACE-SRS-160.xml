@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-160">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Strava and Garmin Connect read heart rate from this extension. Basis: as implemented.</attr>
+  <description>When the user exports a workout, the app shall write the heart rate of each track point that has a reading using the Garmin TrackPointExtension version 1.</description>
+</object>

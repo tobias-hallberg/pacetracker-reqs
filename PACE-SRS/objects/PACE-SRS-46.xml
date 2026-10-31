@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-46">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Quality</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Without a filter, GPS drift while standing still adds false distance, a wrong recorded value. The value is a starting point, to be confirmed by a field test. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When a location fix has a horizontal accuracy worse than 20 m, the app shall exclude the location fix from the session distance.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-38">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Gives the runner a retry when the save at Finish failed. Basis: as implemented.</attr>
+  <description>When saving the workout at Finish has not succeeded, the app shall offer on the Summary screen a control for saving the workout.</description>
+</object>

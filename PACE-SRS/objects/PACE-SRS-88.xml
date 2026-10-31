@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-88">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Proposed</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A stale value would otherwise reach the display, the recorded track and the average. The code returns the previous reading after a reconnect. Basis: inferred.</attr>
+  <description>When the connection to the paired sensor is re-established, the app shall provide no current heart rate until the paired sensor delivers a valid reading.</description>
+</object>

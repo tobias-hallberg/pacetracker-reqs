@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-83">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Retrying does not fix a missing ANT+ Plugins Service, a missing ANT+ adapter or a sensor without the Heart Rate Measurement characteristic. The matching connection status stays shown. Bluetooth unavailable is not in this list because PACE-SRS-84 covers it, although the code also stops trying in that case today. Basis: as implemented.</attr>
+  <description>When a connection attempt fails with plugin missing, no ANT+ adapter or sensor error, the app shall make no further connection attempts in the session.</description>
+</object>

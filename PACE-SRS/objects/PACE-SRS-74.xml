@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-74">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A runner who sees an empty list needs to know what to fix. The exact wording is a design matter. Basis: as implemented.</attr>
+  <description>When a BLE scan or ANT+ pairing fails, the app shall tell the user the cause: Bluetooth permissions not granted, Bluetooth off, no Bluetooth LE radio, scan error, ANT+ service app missing or pairing error.</description>
+</object>

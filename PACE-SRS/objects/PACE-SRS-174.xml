@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-174">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">The design shows the disk size of stored data. 1 KB is 1024 bytes. The code measures only the main database file today, once when the screen opens, so recent data held in the companion files is left out. Basis: design handoff.</attr>
+  <description>When the Settings screen opens, the app shall show the combined size of the workout database files in bytes below 1 KB, in KB below 1 MB and in MB from 1 MB upward.</description>
+</object>

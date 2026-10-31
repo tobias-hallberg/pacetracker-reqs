@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-159">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Median smoothing reduces GPS altitude noise, and a made-up elevation would mislead the receiving service. Near the ends of the route the window is shorter, and only readings that exist count; with an even number of readings the higher middle value is used. Basis: as implemented.</attr>
+  <description>When the user exports a workout, the app shall write the median altitude of up to 7 track points centred on each track point, omitting the altitude without readings.</description>
+</object>

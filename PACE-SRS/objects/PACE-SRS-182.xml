@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-182">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Performance</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">High-accuracy location at 1 s intervals drains the battery, and runners judge the app by how long a long run can be recorded. Measured on the reference device, a Sony Xperia XQ-DE54, with no other app in use, using the per-app figure in the Android battery usage statistics. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>While the screen is off in the recording state, the app shall limit battery consumption to 5 % of battery capacity per hour, averaged over a 60 min session.</description>
+</object>

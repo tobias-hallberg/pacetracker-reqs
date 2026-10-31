@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-135">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Saving the finished session is the purpose of the app. These are the summary values of the Summary screen, defined in the metrics section, and the record is one entity that is stored and read as a whole. The record also holds a note field, but no screen fills it today, so the note is left out. Basis: as implemented.</attr>
+  <description>When a session finishes, the app shall store a workout with the activity type, start time, end time, distance, duration, average pace, elevation gain, calories and step count of the session.</description>
+</object>

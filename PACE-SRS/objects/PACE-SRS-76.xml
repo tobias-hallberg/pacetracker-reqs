@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-76">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Without the control the runner is stuck. The ANT+ service app is the Android app that provides the ANT+ Plugins Service; the ANT+ library names the missing package at runtime. Basis: as implemented.</attr>
+  <description>When the user starts ANT+ pairing while the ANT+ service app is missing, the app shall offer a control to open the Google Play listing of the ANT+ service app.</description>
+</object>

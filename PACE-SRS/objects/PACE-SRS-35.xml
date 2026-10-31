@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-35">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The workout figures are the result of the run, defined in the metrics section. Basis: both.</attr>
+  <description>When a session finishes, the app shall show the workout figures on the Summary screen.</description>
+</object>

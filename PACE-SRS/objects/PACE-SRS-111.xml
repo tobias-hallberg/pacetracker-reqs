@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-111">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The design shows sessions per week beside distance and pace, as a measure of consistency. Basis: both.</attr>
+  <description>When the History screen is displayed, the app shall show the number of workouts started in the current week.</description>
+</object>

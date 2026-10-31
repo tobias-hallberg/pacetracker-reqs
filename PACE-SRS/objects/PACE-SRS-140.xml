@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-140">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The pace of a short final split is not comparable with complete splits, and the peak pace excludes it. Basis: as implemented.</attr>
+  <description>When a stored split is shorter than one distance unit, the app shall mark the split as partial.</description>
+</object>

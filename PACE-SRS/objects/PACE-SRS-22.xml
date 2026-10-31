@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-22">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Resuming keeps the recorded totals and resets nothing, so a stop to tie a shoe leaves the workout intact (owner, 2026-10-31); Resume is also what returns the session to the recording state. Basis: both.</attr>
+  <description>When the user selects Resume, the app shall continue counting elapsed time and distance from the values at Pause.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-180">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A heart rate sensor problem is not a reason to lose a recording. The BLE link reports a Bluetooth unavailable error in all three cases, and the location and timer jobs run separately from the heart rate job. Readings from an ANT+ heart rate sensor are not affected. Basis: as implemented.</attr>
+  <description>When the device has no Bluetooth adapter, the Bluetooth adapter is switched off or the Bluetooth connect permission is not granted, the app shall continue the session without readings from a BLE heart rate sensor.</description>
+</object>

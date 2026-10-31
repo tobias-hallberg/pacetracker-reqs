@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-163">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">The design specifies a cycle through three map styles, then back to the first. Terrain is the style before any selection. Basis: both.</attr>
+  <description>When the user selects the map style on the Settings screen, the app shall change the map style to the next one in the map style cycle.</description>
+</object>

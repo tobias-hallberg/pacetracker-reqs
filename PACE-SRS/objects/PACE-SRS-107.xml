@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-107">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The line is added only after the style loads, so with no internet access or a failed style request no line shows. Recording itself does not depend on the map. A style that returns an error counts as not loaded. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the map style has not loaded within 10 s, the app shall display the line through the location fixes over a plain background.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-130">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">Shows progress against the preceding equal period. The change is (D - C) / C x 100, D being the selected period total and C the comparison period total. Whole history has no comparison period. Today the code compares the latest month containing a workout with the nearest earlier month containing one. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the comparison period has a total distance above 0 m, the app shall show on the Stats screen the percentage change from the comparison period to the selected period, truncated to a whole percentage.</description>
+</object>

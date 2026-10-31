@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-51">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">A standing runner would otherwise see an implausible pace. With fewer than two location fixes the speed counts as 0 m/s, and before any pace exists the value is 0 s/km. Basis: as implemented.</attr>
+  <description>When the speed over the last 10 s is below 0.5 m/s, the app shall keep showing the previous current pace.</description>
+</object>

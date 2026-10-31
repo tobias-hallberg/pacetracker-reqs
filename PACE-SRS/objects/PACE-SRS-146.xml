@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-146">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The code has no age or count limit that removes workouts. Assumption: no automatic clean-up is wanted. Basis: inferred.</attr>
+  <description>The app shall retain each stored workout until the user deletes the workout.</description>
+</object>

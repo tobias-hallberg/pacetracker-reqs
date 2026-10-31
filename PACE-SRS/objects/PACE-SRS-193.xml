@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-193">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">GPX has no place for these values, and without them the export is not a backup of the data, and an import can't rebuild the workout. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>The app shall write the identifier, activity type, start time, end time, workout figures, splits and heart rate figures of each saved workout to one JSON file in the export archive.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-104">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The chosen style applies to all three screens that show a map, and the styles come from the map provider. Basis: as implemented.</attr>
+  <description>When a map is displayed and a map key is configured, the app shall display the map style chosen in Settings: Terrain, Minimal or Satellite.</description>
+</object>

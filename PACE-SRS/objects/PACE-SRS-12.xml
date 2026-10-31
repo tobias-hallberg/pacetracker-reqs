@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-12">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Usability</attr>
+  <attr name="status">Proposed</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Today Start fails silently and looks like a broken button, and location services being off is never checked. Android can also refuse to start background recording, which no code handles today. Basis: inferred.</attr>
+  <description>When Start does not begin a session because the location permission is denied or device location is switched off, the app shall show a message naming the reason.</description>
+</object>

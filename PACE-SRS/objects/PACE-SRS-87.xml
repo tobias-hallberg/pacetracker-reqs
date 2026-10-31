@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-87">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The runner learns why no heart rate appears. A connected sensor needs no status text, so none is shown. Basis: as implemented.</attr>
+  <description>While a session exists with a paired sensor, the app shall show a status text on the Active screen for each connection status except connected.</description>
+</object>

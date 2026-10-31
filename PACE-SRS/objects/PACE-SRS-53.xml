@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-53">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The peak pace is a saved value shown with the label Best pace in the summary and statistics. Basis: as implemented.</attr>
+  <description>When the user selects Finish, the app shall save as the peak pace the shortest split pace among the splits covering a full distance unit, or the average pace without such a split.</description>
+</object>

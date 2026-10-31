@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-158">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Receiving services date the route from these values; UTC avoids ambiguity across time zones. Latitude and longitude follow GPX 1.1 and need no separate requirement. Basis: as implemented.</attr>
+  <description>When the user exports a workout, the app shall write the timestamp of each track point in UTC in ISO 8601-1:2019 extended format.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-58">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The 1 m threshold keeps altitude jitter from adding gain on a flat route. A rise of exactly 1 m adds nothing, a descent above 1 m lowers the reference, and location fixes without altitude are skipped. The design's optional barometer is not implemented. Basis: as implemented.</attr>
+  <description>In the recording state, the app shall add to the elevation gain each altitude rise above 1 m from a reference altitude, moving the reference after each change above 1 m.</description>
+</object>

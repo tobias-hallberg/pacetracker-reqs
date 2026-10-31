@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-9">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Starting a recording is the core action of the app. Basis: as implemented.</attr>
+  <description>When the app holds the fine location permission after the user selects Start, the app shall begin a session in the recording state with distance, elapsed time, steps and calories at zero.</description>
+</object>

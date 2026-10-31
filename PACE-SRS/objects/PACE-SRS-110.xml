@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-110">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Dividing totals weights long workouts correctly. Basis: both.</attr>
+  <description>When the History screen is displayed, the app shall show the average pace of the workouts started in the current week as the sum of workout durations divided by the sum of workout distances.</description>
+</object>

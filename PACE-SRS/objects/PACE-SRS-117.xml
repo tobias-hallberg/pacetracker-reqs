@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-117">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The list is the only way to reach the stored record. Basis: both.</attr>
+  <description>When the user selects a listed workout, the app shall open the Workout Detail screen.</description>
+</object>

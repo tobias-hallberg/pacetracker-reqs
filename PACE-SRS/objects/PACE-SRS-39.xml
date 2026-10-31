@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-39">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Proposed</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Today a failed store is only logged and the workout can be lost without notice. Basis: inferred.</attr>
+  <description>When saving the workout fails, the app shall tell the user that the workout is not saved.</description>
+</object>

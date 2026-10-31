@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-96">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">The design hides the map by default. The choice is not persisted, so each new Active screen opens in the stat view. Basis: both.</attr>
+  <description>When a session starts, the app shall display the stat view on the Active screen.</description>
+</object>

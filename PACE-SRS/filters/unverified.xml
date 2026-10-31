@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter name="Unverified" combinator="all" keep-ancestors="true">
+  <rule kind="attr" op="eq" attr="type" value="Requirement"/>
+  <rule kind="attr" op="eq" attr="status" value="Implemented"/>
+  <rule kind="has-incoming" op="absent" attr="PACE-STS"/>
+</filter>

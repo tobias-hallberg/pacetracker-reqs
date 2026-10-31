@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-81">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A strap off the chest would otherwise record a false heart rate. A BLE reading of 0 bpm or with sensor contact reported as not detected, and an ANT+ report that is neither live nor initial data, are not valid readings. Basis: as implemented.</attr>
+  <description>When the paired sensor delivers a reading that is not a valid reading, the app shall provide no current heart rate.</description>
+</object>

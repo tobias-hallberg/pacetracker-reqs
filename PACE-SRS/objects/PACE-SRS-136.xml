@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-136">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The route feeds the map, the elevation profile and the GPX export. Basis: as implemented.</attr>
+  <description>When a session finishes, the app shall store the route of the workout as location fixes, each with latitude, longitude and timestamp.</description>
+</object>

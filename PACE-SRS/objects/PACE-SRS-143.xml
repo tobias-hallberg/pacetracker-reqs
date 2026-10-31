@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-143">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The app reconnects to the paired sensor in later sessions without a new scan. The connection type is Bluetooth LE or ANT+, and the name is kept when the sensor reports one. The address is the Bluetooth address for Bluetooth LE and the device number for ANT+. Basis: as implemented.</attr>
+  <description>When the user selects a heart rate sensor in Settings, the app shall retain the connection type, the address or device number, and the name of that sensor as the paired sensor.</description>
+</object>

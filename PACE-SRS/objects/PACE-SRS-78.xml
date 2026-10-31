@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-78">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Heart rate is recorded only while a connection exists. The connection ends when the session ends or the sensor is forgotten, and a dropped connection is handled by the reconnection requirement. Basis: as implemented.</attr>
+  <description>When the user selects Start with a paired sensor, the app shall begin a connection attempt to the paired sensor.</description>
+</object>

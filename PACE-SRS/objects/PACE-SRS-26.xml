@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-26">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The notification keeps the session visible and the controls reachable from the lock screen. Basis: as implemented.</attr>
+  <description>While a session exists and the permission to post notifications is granted, the app shall show a session notification stating the elapsed time.</description>
+</object>

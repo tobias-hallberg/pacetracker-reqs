@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PACE-SRS">
+  <metadata>
+    <title>Pacemark Software Requirements Specification</title>
+    <author>Tobias Hallberg</author>
+    <date>2026-10-30</date>
+  </metadata>
+  <attributes>
+    <attribute name="type" label="Type" kind="enum" required="true">
+      <option>Heading</option>
+      <option>Requirement</option>
+    </attribute>
+    <attribute name="req-type" label="Requirement type" kind="enum" required="false">
+      <option>Functional</option>
+      <option>Performance</option>
+      <option>Interface</option>
+      <option>Usability</option>
+      <option>Quality</option>
+      <option>Constraint</option>
+    </attribute>
+    <attribute name="status" label="Status" kind="enum" required="false">
+      <option>Proposed</option>
+      <option>Accepted</option>
+      <option>Implemented</option>
+      <option>Deferred</option>
+    </attribute>
+    <attribute name="priority" label="Priority" kind="enum" required="false">
+      <option>High</option>
+      <option>Medium</option>
+      <option>Low</option>
+    </attribute>
+    <attribute name="rationale" label="Rationale" kind="text" required="false"/>
+  </attributes>
+  <outline>
+    <ref id="PACE-SRS-0">
+      <ref id="PACE-SRS-8">
+        <ref id="PACE-SRS-9"/>
+        <ref id="PACE-SRS-10"/>
+        <ref id="PACE-SRS-11"/>
+        <ref id="PACE-SRS-12"/>
+        <ref id="PACE-SRS-13"/>
+        <ref id="PACE-SRS-14"/>
+        <ref id="PACE-SRS-199"/>
+        <ref id="PACE-SRS-18"/>
+        <ref id="PACE-SRS-188"/>
+        <ref id="PACE-SRS-19"/>
+      </ref>
+      <ref id="PACE-SRS-20">
+        <ref id="PACE-SRS-21"/>
+        <ref id="PACE-SRS-22"/>
+        <ref id="PACE-SRS-23"/>
+        <ref id="PACE-SRS-24"/>
+        <ref id="PACE-SRS-25"/>
+        <ref id="PACE-SRS-26"/>
+        <ref id="PACE-SRS-27"/>
+        <ref id="PACE-SRS-28"/>
+        <ref id="PACE-SRS-29"/>
+      </ref>
+      <ref id="PACE-SRS-30">
+        <ref id="PACE-SRS-31"/>
+        <ref id="PACE-SRS-32"/>
+        <ref id="PACE-SRS-33"/>
+        <ref id="PACE-SRS-34"/>
+        <ref id="PACE-SRS-189"/>
+        <ref id="PACE-SRS-35"/>
+        <ref id="PACE-SRS-36"/>
+        <ref id="PACE-SRS-37"/>
+        <ref id="PACE-SRS-38"/>
+        <ref id="PACE-SRS-39"/>
+      </ref>
+      <ref id="PACE-SRS-40">
+        <ref id="PACE-SRS-41"/>
+        <ref id="PACE-SRS-42"/>
+        <ref id="PACE-SRS-43"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-1">
+      <ref id="PACE-SRS-44">
+        <ref id="PACE-SRS-45"/>
+        <ref id="PACE-SRS-46"/>
+        <ref id="PACE-SRS-47"/>
+        <ref id="PACE-SRS-48"/>
+      </ref>
+      <ref id="PACE-SRS-49">
+        <ref id="PACE-SRS-50"/>
+        <ref id="PACE-SRS-51"/>
+        <ref id="PACE-SRS-52"/>
+        <ref id="PACE-SRS-53"/>
+        <ref id="PACE-SRS-54"/>
+        <ref id="PACE-SRS-55"/>
+        <ref id="PACE-SRS-56"/>
+      </ref>
+      <ref id="PACE-SRS-57">
+        <ref id="PACE-SRS-58"/>
+        <ref id="PACE-SRS-59"/>
+        <ref id="PACE-SRS-60"/>
+        <ref id="PACE-SRS-61"/>
+        <ref id="PACE-SRS-62"/>
+      </ref>
+      <ref id="PACE-SRS-64">
+        <ref id="PACE-SRS-65"/>
+        <ref id="PACE-SRS-66"/>
+        <ref id="PACE-SRS-67"/>
+        <ref id="PACE-SRS-68"/>
+        <ref id="PACE-SRS-69"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-2">
+      <ref id="PACE-SRS-70">
+        <ref id="PACE-SRS-71"/>
+        <ref id="PACE-SRS-72"/>
+        <ref id="PACE-SRS-73"/>
+        <ref id="PACE-SRS-74"/>
+        <ref id="PACE-SRS-75"/>
+        <ref id="PACE-SRS-76"/>
+      </ref>
+      <ref id="PACE-SRS-77">
+        <ref id="PACE-SRS-78"/>
+        <ref id="PACE-SRS-79"/>
+        <ref id="PACE-SRS-80"/>
+        <ref id="PACE-SRS-81"/>
+        <ref id="PACE-SRS-82"/>
+        <ref id="PACE-SRS-83"/>
+        <ref id="PACE-SRS-84"/>
+      </ref>
+      <ref id="PACE-SRS-85">
+        <ref id="PACE-SRS-86"/>
+        <ref id="PACE-SRS-87"/>
+        <ref id="PACE-SRS-88"/>
+      </ref>
+      <ref id="PACE-SRS-89">
+        <ref id="PACE-SRS-90"/>
+        <ref id="PACE-SRS-91"/>
+        <ref id="PACE-SRS-92"/>
+        <ref id="PACE-SRS-93"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-3">
+      <ref id="PACE-SRS-94">
+        <ref id="PACE-SRS-95"/>
+        <ref id="PACE-SRS-96"/>
+        <ref id="PACE-SRS-97"/>
+        <ref id="PACE-SRS-98"/>
+      </ref>
+      <ref id="PACE-SRS-99">
+        <ref id="PACE-SRS-100"/>
+        <ref id="PACE-SRS-101"/>
+        <ref id="PACE-SRS-102"/>
+      </ref>
+      <ref id="PACE-SRS-103">
+        <ref id="PACE-SRS-104"/>
+      </ref>
+      <ref id="PACE-SRS-105">
+        <ref id="PACE-SRS-106"/>
+        <ref id="PACE-SRS-107"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-4">
+      <ref id="PACE-SRS-108">
+        <ref id="PACE-SRS-109"/>
+        <ref id="PACE-SRS-110"/>
+        <ref id="PACE-SRS-111"/>
+        <ref id="PACE-SRS-112"/>
+      </ref>
+      <ref id="PACE-SRS-113">
+        <ref id="PACE-SRS-114"/>
+        <ref id="PACE-SRS-115"/>
+        <ref id="PACE-SRS-116"/>
+        <ref id="PACE-SRS-117"/>
+      </ref>
+      <ref id="PACE-SRS-118">
+        <ref id="PACE-SRS-119"/>
+        <ref id="PACE-SRS-120"/>
+        <ref id="PACE-SRS-121"/>
+      </ref>
+      <ref id="PACE-SRS-122">
+        <ref id="PACE-SRS-123"/>
+        <ref id="PACE-SRS-124"/>
+      </ref>
+      <ref id="PACE-SRS-125">
+        <ref id="PACE-SRS-126"/>
+        <ref id="PACE-SRS-127"/>
+        <ref id="PACE-SRS-128"/>
+        <ref id="PACE-SRS-129"/>
+        <ref id="PACE-SRS-130"/>
+        <ref id="PACE-SRS-131"/>
+        <ref id="PACE-SRS-132"/>
+        <ref id="PACE-SRS-133"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-5">
+      <ref id="PACE-SRS-134">
+        <ref id="PACE-SRS-135"/>
+        <ref id="PACE-SRS-136"/>
+        <ref id="PACE-SRS-137"/>
+        <ref id="PACE-SRS-138"/>
+        <ref id="PACE-SRS-139"/>
+        <ref id="PACE-SRS-140"/>
+        <ref id="PACE-SRS-141"/>
+        <ref id="PACE-SRS-142"/>
+        <ref id="PACE-SRS-143"/>
+      </ref>
+      <ref id="PACE-SRS-144">
+        <ref id="PACE-SRS-145"/>
+        <ref id="PACE-SRS-146"/>
+      </ref>
+      <ref id="PACE-SRS-147">
+        <ref id="PACE-SRS-148"/>
+        <ref id="PACE-SRS-190"/>
+      </ref>
+      <ref id="PACE-SRS-149">
+        <ref id="PACE-SRS-150"/>
+        <ref id="PACE-SRS-151"/>
+        <ref id="PACE-SRS-152"/>
+        <ref id="PACE-SRS-153"/>
+        <ref id="PACE-SRS-191"/>
+        <ref id="PACE-SRS-154"/>
+        <ref id="PACE-SRS-155"/>
+      </ref>
+      <ref id="PACE-SRS-156">
+        <ref id="PACE-SRS-157"/>
+        <ref id="PACE-SRS-158"/>
+        <ref id="PACE-SRS-159"/>
+        <ref id="PACE-SRS-160"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-6">
+      <ref id="PACE-SRS-161">
+        <ref id="PACE-SRS-162"/>
+        <ref id="PACE-SRS-163"/>
+        <ref id="PACE-SRS-164"/>
+        <ref id="PACE-SRS-166"/>
+      </ref>
+      <ref id="PACE-SRS-168">
+        <ref id="PACE-SRS-169"/>
+        <ref id="PACE-SRS-170"/>
+      </ref>
+      <ref id="PACE-SRS-171">
+        <ref id="PACE-SRS-172"/>
+        <ref id="PACE-SRS-192"/>
+        <ref id="PACE-SRS-193"/>
+        <ref id="PACE-SRS-195"/>
+        <ref id="PACE-SRS-196"/>
+        <ref id="PACE-SRS-197"/>
+        <ref id="PACE-SRS-198"/>
+        <ref id="PACE-SRS-173"/>
+        <ref id="PACE-SRS-174"/>
+      </ref>
+    </ref>
+    <ref id="PACE-SRS-7">
+      <ref id="PACE-SRS-175">
+        <ref id="PACE-SRS-176"/>
+        <ref id="PACE-SRS-177"/>
+        <ref id="PACE-SRS-178"/>
+        <ref id="PACE-SRS-179"/>
+        <ref id="PACE-SRS-180"/>
+      </ref>
+      <ref id="PACE-SRS-181">
+        <ref id="PACE-SRS-182"/>
+        <ref id="PACE-SRS-183"/>
+      </ref>
+      <ref id="PACE-SRS-184">
+        <ref id="PACE-SRS-185"/>
+      </ref>
+      <ref id="PACE-SRS-186">
+        <ref id="PACE-SRS-187"/>
+        <ref id="PACE-SRS-194"/>
+      </ref>
+    </ref>
+  </outline>
+</document>

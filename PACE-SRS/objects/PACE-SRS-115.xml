@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-115">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The row lets the user recognise a workout without opening it. Activity type and start date identify the workout and are shown together as one label. Basis: both.</attr>
+  <description>For each listed workout, the app shall show the activity type and the start date and time of the workout.</description>
+</object>

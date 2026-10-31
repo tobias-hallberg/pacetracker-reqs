@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-192">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">GPX holds the route and per-point heart rate, and training services can read it. The file content is specified in the Data section. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>The app shall write one GPX 1.1 file for each saved workout to the export archive.</description>
+</object>

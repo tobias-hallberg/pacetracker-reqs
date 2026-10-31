@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-126">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Accepted</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Month assignment is in UTC today, so a workout near midnight can fall in the wrong month for the user. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>On the Stats screen, the app shall assign each workout to a period by start date in the device time zone.</description>
+</object>

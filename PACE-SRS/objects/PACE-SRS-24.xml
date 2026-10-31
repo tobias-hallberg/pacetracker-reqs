@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-24">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Runners lock the phone or switch apps during a run. Basis: both.</attr>
+  <description>While a session is in the recording state and the app is in the background, the app shall continue counting time and distance.</description>
+</object>

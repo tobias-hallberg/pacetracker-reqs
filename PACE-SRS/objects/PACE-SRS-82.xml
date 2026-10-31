@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-82">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">A strap that leaves range or is not yet awake is expected to return, so attempts continue for the rest of the session. A failed attempt counts as a lost connection. Basis: as implemented.</attr>
+  <description>When the connection to the paired sensor is lost, the app shall start another connection attempt at intervals not longer than 30 s until the session ends or PACE-SRS-83 applies.</description>
+</object>

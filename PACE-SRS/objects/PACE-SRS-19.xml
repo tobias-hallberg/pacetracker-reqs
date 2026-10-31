@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-19">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Low</attr>
+  <attr name="rationale">The design shows the last workout on Home as a reminder of recent effort. Basis: both.</attr>
+  <description>When at least one workout is saved, the app shall show the distance, duration and average pace of the latest workout on the Home screen.</description>
+</object>

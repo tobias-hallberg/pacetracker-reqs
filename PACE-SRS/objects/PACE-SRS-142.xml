@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-142">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">The tracking service and the Summary screen can both save the same session; a duplicate would double the totals of the user. Basis: as implemented.</attr>
+  <description>When a finished session is saved a second time, the app shall replace the stored workout with the same identifier instead of adding a second workout.</description>
+</object>

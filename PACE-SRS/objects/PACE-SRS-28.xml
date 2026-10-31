@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-28">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Interface</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">Ending a run from the lock screen. Basis: as implemented.</attr>
+  <description>While the session notification is shown, the app shall offer a Finish action.</description>
+</object>

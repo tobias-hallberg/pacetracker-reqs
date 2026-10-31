@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-179">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Constraint</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The heart rate sensor is an optional feature and the manifest marks BLE as not required, so the store does not filter such devices out. Basis: as implemented.</attr>
+  <description>The app shall allow installation on devices without Bluetooth Low Energy hardware.</description>
+</object>

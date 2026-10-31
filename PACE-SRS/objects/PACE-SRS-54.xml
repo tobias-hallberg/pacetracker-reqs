@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-54">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Splits are a core part of a workout record. The split length follows the distance unit chosen in Settings when the session starts. Basis: as implemented.</attr>
+  <description>While the session is in the recording state, the app shall complete a split when the distance accumulated in the current split reaches one distance unit, carrying the excess distance into the next split.</description>
+</object>

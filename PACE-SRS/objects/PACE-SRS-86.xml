@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-86">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">High</attr>
+  <attr name="rationale">Live heart rate is the purpose of the sensor. The Active screen shows a placeholder while no value exists and no heart rate item while no sensor is paired. Basis: as implemented.</attr>
+  <description>While a session exists and a sensor is paired, the app shall show the current heart rate in bpm on the Active screen.</description>
+</object>

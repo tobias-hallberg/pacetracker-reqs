@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-SRS-102">
+  <attr name="type">Requirement</attr>
+  <attr name="req-type">Functional</attr>
+  <attr name="status">Implemented</attr>
+  <attr name="priority">Medium</attr>
+  <attr name="rationale">The saved route is reviewed after the session on the Summary screen and later on the Workout Detail screen. The design specifies the Summary thumbnail only; Workout Detail is not in the design. A workout with no location fix is not covered here. Basis: both.</attr>
+  <description>When the user views a workout with at least 1 location fix, the app shall display a map of the workout's location fixes.</description>
+</object>
