@@ -2,8 +2,8 @@
 <object id="PACE-SRS-185">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Usability</attr>
-  <attr name="status">Proposed</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">Screen reader users cannot identify icon-only controls without a label. Icons placed next to visible text are not covered. Only some icons carry a label today, and the Home screen top bar icons have none. Basis: inferred.</attr>
+  <attr name="rationale">Screen reader users cannot identify icon-only controls without a label. Icons placed next to visible text are not covered, and neither are icons with no action. Basis: inferred.</attr>
   <description>For controls showing an icon without visible text, the app shall expose a spoken label to screen readers.</description>
 </object>

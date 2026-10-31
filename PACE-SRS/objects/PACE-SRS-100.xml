@@ -4,6 +4,6 @@
   <attr name="req-type">Functional</attr>
   <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
-  <attr name="rationale">The route is the runner's own data and the reason for showing a map. The design also colours the line with the accent chosen in Settings, which is a visual design detail. No update delay is set in code or design. Basis: both.</attr>
+  <attr name="rationale">The route is the runner's own data and the reason for showing a map. The design also colours the line with the accent chosen in Settings, which is a visual design detail. No update delay is set in code or design. The line runs through the smoothed positions, so its end can lag the marker of PACE-SRS-98 by a few metres. Basis: both.</attr>
   <description>While the map view is displayed and the session has at least 2 location fixes, the app shall display the line through the session's location fixes up to the latest location fix.</description>
 </object>

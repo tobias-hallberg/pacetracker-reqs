@@ -2,7 +2,7 @@
 <object id="PACE-SRS-187">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Constraint</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
   <attr name="rationale">The ANT+ licence requires the copyright notice, conditions and disclaimer to be reproduced in the documentation that accompanies binary redistribution, and the app has no other documentation. The licence file names no version, so the library version identifies it. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>The app shall present the licence text supplied with ANT+ library 3.9.0, the ANT+ Shared Source License, in the app.</description>

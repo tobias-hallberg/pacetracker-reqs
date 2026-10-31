@@ -2,8 +2,8 @@
 <object id="PACE-SRS-189">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">A Finish from the notification saves the workout but shows no Summary today, so the runner never sees the result. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">A Finish from the notification saves the workout, and the runner still needs to see the result. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When a session finishes while the Active screen is not displayed, the app shall show the Summary screen for the session at the first moment an app screen is in the foreground.</description>
 </object>

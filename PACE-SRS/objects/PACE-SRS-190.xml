@@ -2,8 +2,8 @@
 <object id="PACE-SRS-190">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
-  <attr name="rationale">The build erases the database in this case today, including on a downgrade, and lost training history is unrecoverable. The app failing to open is the lesser harm, because a later release can still read the data. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">Erasing the database, including on a downgrade, would lose training history for good. The app failing to open is the lesser harm, because a later release can still read the data. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When the stored workout database has a schema version with no migration to the installed release, the app shall leave the stored workouts unchanged.</description>
 </object>

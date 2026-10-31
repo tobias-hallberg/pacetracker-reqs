@@ -2,7 +2,7 @@
 <object id="PACE-SRS-42">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
   <attr name="rationale">Recovers a run after process death or a crash; confirming saves the workout. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When the app starts after the app process ended during a session, the app shall ask the user whether to save the session recorded so far as a workout.</description>

@@ -2,8 +2,8 @@
 <object id="PACE-SRS-101">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Proposed</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">The whole route has to be visible without manual panning. The code fits the map to any non-empty list of location fixes, but the call may fail for exactly 1 location fix, so the status stays Proposed until that case is checked. Basis: both.</attr>
+  <attr name="rationale">The whole route has to be visible without manual panning. A single location fix has no extent, so the camera centres on the fix. Basis: both.</attr>
   <description>When the app displays a map of at least 1 location fix, the app shall position the map camera so that the visible map area contains the bounding box of the location fixes.</description>
 </object>

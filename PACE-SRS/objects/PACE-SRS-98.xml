@@ -2,8 +2,8 @@
 <object id="PACE-SRS-98">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Low</attr>
-  <attr name="rationale">The design specifies a pulsing location dot, and no marker exists in the code. The pulse timing is a visual design detail and is left to the design handoff. Basis: design handoff.</attr>
+  <attr name="rationale">The design specifies a pulsing location dot. The pulse timing is a visual design detail and is left to the design handoff. Basis: design handoff.</attr>
   <description>While the map view is displayed and the session has a location fix, the app shall display a marker at the latest location fix.</description>
 </object>

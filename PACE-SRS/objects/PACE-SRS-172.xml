@@ -2,8 +2,8 @@
 <object id="PACE-SRS-172">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
-  <attr name="rationale">Export is how a user backs up their data from a local-only app, and today it covers the latest workout only. The user chooses the location, so no storage permission is needed. Preferences are not part of the backup. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">Export is how a user backs up their data from a local-only app. The user chooses the location, so no storage permission is needed. Preferences are not part of the backup. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When the user selects the export row on the Settings screen, the app shall write the saved workouts to one ZIP archive at a location the user chooses.</description>
 </object>

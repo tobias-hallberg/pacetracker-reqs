@@ -2,8 +2,8 @@
 <object id="PACE-SRS-50">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Proposed</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
-  <attr name="rationale">The current pace is the main live value. At a steady 4 m/s the intended value is 250 s/km. The code also adds the distance of the oldest location fix, so the app shows 227 s/km, which is why this stays Proposed and why PaceWindowTest fails. Basis: both.</attr>
+  <attr name="rationale">The current pace is the main live value. At a steady 4 m/s the value is 250 s/km. Basis: both.</attr>
   <description>In the recording state, the app shall calculate the current pace from the seconds and metres between the oldest and newest location fix of the last 10 s.</description>
 </object>

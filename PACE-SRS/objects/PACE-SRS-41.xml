@@ -2,8 +2,8 @@
 <object id="PACE-SRS-41">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Quality</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
-  <attr name="rationale">A session lives only in memory today, so process death loses the workout. The value limits how much of a run can be lost. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">Process death would otherwise lose the workout. The value limits how much of a run can be lost. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When the app process ends during a session, the app shall retain the location fixes, distance and elapsed time recorded up to 10 s before the process ended.</description>
 </object>

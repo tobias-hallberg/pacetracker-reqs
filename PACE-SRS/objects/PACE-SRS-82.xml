@@ -4,6 +4,6 @@
   <attr name="req-type">Functional</attr>
   <attr name="status">Implemented</attr>
   <attr name="priority">High</attr>
-  <attr name="rationale">A strap that leaves range or is not yet awake is expected to return, so attempts continue for the rest of the session. A failed attempt counts as a lost connection. Basis: as implemented.</attr>
-  <description>When the connection to the paired sensor is lost, the app shall start another connection attempt at intervals not longer than 30 s until the session ends or PACE-SRS-83 applies.</description>
+  <attr name="rationale">A strap that leaves range or is not yet awake is expected to return, so attempts continue for the rest of the session. A failed attempt counts as a lost connection. An attempt may stay in progress until the strap wakes, so that it reconnects as soon as it does, instead of starting a new attempt on a schedule. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <description>When the connection to the paired sensor is lost, the app shall leave no more than 30 s without a connection attempt in progress until the session ends or PACE-SRS-83 applies.</description>
 </object>

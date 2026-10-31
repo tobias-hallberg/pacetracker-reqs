@@ -2,8 +2,8 @@
 <object id="PACE-SRS-152">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Constraint</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">Preferences include the address of the paired sensor. The backup rules exclude the database and shared preference domains, but the preferences are stored in the file domain. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">Preferences include the address of the paired sensor, and are stored in the file domain. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>The app shall exclude the stored preferences from cloud backup and from device-to-device transfer.</description>
 </object>

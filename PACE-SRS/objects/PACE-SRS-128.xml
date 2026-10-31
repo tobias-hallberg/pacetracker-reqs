@@ -2,8 +2,8 @@
 <object id="PACE-SRS-128">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">Dividing totals weights long workouts correctly. Today it covers the latest month containing a workout. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">Dividing totals weights long workouts correctly. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>On the Stats screen, the app shall show the average pace of the selected period as the total duration of the workouts started in the period divided by the total distance of the period.</description>
 </object>

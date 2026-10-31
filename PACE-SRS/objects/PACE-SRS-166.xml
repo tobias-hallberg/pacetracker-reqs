@@ -2,8 +2,8 @@
 <object id="PACE-SRS-166">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">The design lists a Dark theme switch and an optional light theme. The code is dark-only and has no switch today. Dark stays the theme until the user turns the switch off. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">The design lists a Dark theme switch and an optional light theme. Dark stays the theme until the user turns the switch off. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When the user turns off the Dark theme switch on the Settings screen, the app shall display the light theme.</description>
 </object>

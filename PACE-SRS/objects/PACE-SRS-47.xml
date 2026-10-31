@@ -2,8 +2,8 @@
 <object id="PACE-SRS-47">
   <attr name="type">Requirement</attr>
   <attr name="req-type">Functional</attr>
-  <attr name="status">Accepted</attr>
+  <attr name="status">Implemented</attr>
   <attr name="priority">Medium</attr>
-  <attr name="rationale">A paused session does not count, so ground covered during a pause adds nothing, and the totals from before the pause stay. Today the first fix after a resume is measured from the stale pre-pause position, which adds that gap to the distance. Owner decision, 2026-10-31. Basis: owner decision.</attr>
+  <attr name="rationale">A paused session does not count, so ground covered during a pause adds nothing, and the totals from before the pause stay. Owner decision, 2026-10-31. Basis: owner decision.</attr>
   <description>When the session returns to the recording state from the paused state, the app shall start the distance measurement from the first location fix received after the resume, adding 0 m for that location fix.</description>
 </object>
