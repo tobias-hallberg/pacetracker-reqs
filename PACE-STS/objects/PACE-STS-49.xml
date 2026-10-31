@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-49">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east.
+Steps: 1. Select Walk and Start. 2. Inject fixes at 1.3 m/s until the timer reads 30:00. 3. Select Finish and read Calories. 4. Repeat with Hike for 20:00.
+Expected: Walk reads 129 kcal (128 to 130). Hike reads 147 kcal (146 to 148).</description>
+</object>

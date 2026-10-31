@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-38">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: physical device in the open, a reference route of known length measured without GPS of 5 km.
+Steps: 1. Select Start at the route start. 2. Walk or run the route. 3. Select Finish and read the distance on the Summary screen.
+Expected: Recorded distance differs from the route length by at most 3 %.</description>
+</object>

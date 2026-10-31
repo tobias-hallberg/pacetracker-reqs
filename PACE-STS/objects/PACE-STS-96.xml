@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-96">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. With a network proxy active, select Terrain, then Minimal, then Satellite in Settings. 2. After each change open the Active map view, Summary and Workout Detail. 3. Read the style requests.
+Expected: Each screen shows the selected style. The style requests go to api.maptiler.com with the map ids outdoor-v2, dataviz-dark and hybrid for Terrain, Minimal and Satellite respectively.</description>
+</object>

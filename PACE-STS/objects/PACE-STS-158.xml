@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-158">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: one device or emulator with Android 8.0 and one with Android 15, location permission granted, mock location fixes moving.
+Steps: 1. Install the release build. 2. Select Start. 3. Wait 30 s. 4. Select Finish.
+Expected: On both devices the app installs and starts, and a workout is saved.</description>
+</object>

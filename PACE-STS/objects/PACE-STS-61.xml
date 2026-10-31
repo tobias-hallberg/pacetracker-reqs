@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-61">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Read the pairing sheet source and the ANT+ pairing result handling. 2. List the user-visible message for each of: Bluetooth permissions not granted, Bluetooth off, no Bluetooth LE radio, scan error, ANT+ service app missing, ANT+ pairing error.
+Expected: Each of the six causes has its own message, and the messages differ from each other.</description>
+</object>

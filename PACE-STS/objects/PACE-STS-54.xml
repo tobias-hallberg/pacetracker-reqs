@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-54">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">UnitFormatterTest.300 sec per km renders as 8-03 in mi mode</attr>
+  <description>Steps: Run UnitFormatterTest '300 sec per km renders as 5-00 in km mode' and '300 sec per km renders as 8-03 in mi mode'.
+Expected: 300 s/km reads 5:00 in kilometre mode and 8:03 in mile mode. The 8:03 result is consistent with 1.609344 but does not isolate it (1.61 gives the same text); the four displayed paces are covered by PACE-STS-42.</description>
+</object>

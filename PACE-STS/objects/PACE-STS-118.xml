@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-118">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a saved route with a quickest continuous 1 km, 5 km and 10 km segment not starting at a split boundary, computed independently from the GPX export; repeat with the distance unit mile. Steps: 1. Open the Stats screen. 2. Read the records.
+Expected: Each record equals the independent time of the quickest continuous segment and shows its date, and stays 1, 5 and 10 km in mile mode. Fails today (shows pace of quickest split, no date).</description>
+</object>

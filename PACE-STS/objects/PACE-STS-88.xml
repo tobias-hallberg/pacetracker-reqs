@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-88">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Select Start and read the Active screen. 2. Select the map icon once. 3. Select the map icon once more.
+Expected: After Start the stat view shows. After the first selection the map view shows in place of the stat view. After the second selection the stat view shows again.</description>
+</object>

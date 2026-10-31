@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-98">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a blank map key and a network proxy active. Steps: 1. Open the Active map view, Summary and Workout Detail with a route. 2. Count requests to api.maptiler.com.
+Expected: Each screen shows the placeholder graphic in place of the map, and api.maptiler.com receives 0 requests.</description>
+</object>

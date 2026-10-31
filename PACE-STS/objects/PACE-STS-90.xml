@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-90">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Start a session and select the map icon. 2. Wait for a location fix.
+Expected: A marker shows at the latest location fix. Not built today.</description>
+</object>

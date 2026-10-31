@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-93">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Open a workout with a route spread over 1 km or more in Summary and Workout Detail, and view the same route on the Active map view. 2. Open a workout with exactly 1 location fix. 3. Open a workout with no location fix.
+Expected: On each screen all location fixes lie inside the visible map area without panning. The 1-fix and the no-fix workouts open without a crash.</description>
+</object>

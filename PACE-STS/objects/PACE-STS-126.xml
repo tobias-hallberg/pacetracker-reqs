@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-126">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debug build, an ANT+ or BLE sensor.
+Steps: 1. In Settings select the sensor. 2. Force-stop and restart the app. 3. Start a session without scanning.
+Expected: Settings shows the same sensor name and connection type after the restart, and the session receives readings from that sensor.</description>
+</object>

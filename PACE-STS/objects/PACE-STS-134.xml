@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-134">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Read data_extraction_rules.xml. 2. Find where the preferences file is stored on the device.
+Expected: The cloud-backup and device-transfer sections each exclude the location of the preferences file.</description>
+</object>

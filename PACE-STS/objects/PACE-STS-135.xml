@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-135">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fresh install.
+Steps: 1. Open the app. 2. Open every bottom navigation tab and Settings. 3. Record and finish a 2 min session.
+Expected: No sign-in, registration or account prompt appears, and the session is saved.</description>
+</object>

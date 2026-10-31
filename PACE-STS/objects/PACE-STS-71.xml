@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-71">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">ReconnectingHeartRateMonitorTest.retries after a drop and reports readings</attr>
+  <description>Expected: After a dropped link the monitor starts another connection attempt, and reports readings once the link delivers data. The test uses a shortened schedule, so the 30 s bound is proven by PACE-STS-70 and PACE-STS-72, not by this test.</description>
+</object>

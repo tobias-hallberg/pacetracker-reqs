@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-12">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: outdoors with clear sky, then indoors away from windows; a GNSS status app showing satellites used in fix; location permission granted. Steps: 1. Open the Home screen and wait 60 s. 2. Read the GPS indicator and the satellites used in the GNSS app. 3. Repeat indoors. 4. Revoke location permission and reopen Home.
+Expected: The indicator reads searching for 0 satellites used, weak for 1 to 3, good for 4 to 6 and strong for 7 or more, matching the GNSS app reading at the same moment; with location permission revoked the indicator reads searching.</description>
+</object>

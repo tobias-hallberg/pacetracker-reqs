@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-109">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a saved workout of 3.5 km with the distance unit kilometre. Steps: 1. Open the workout. 2. Read the splits.
+Expected: Four splits listed in order 1 to 4, each with a pace, the fourth covering the final 0.5 km.</description>
+</object>

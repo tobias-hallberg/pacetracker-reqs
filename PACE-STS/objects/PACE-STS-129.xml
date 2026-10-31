@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-129">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: 2 saved workouts.
+Steps: 1. Force-stop the app and restart the device. 2. Open History. 3. Open 1 workout, select Delete workout and confirm. 4. Return to History.
+Expected: Both workouts are listed after the restart; after the deletion only the other workout remains.</description>
+</object>

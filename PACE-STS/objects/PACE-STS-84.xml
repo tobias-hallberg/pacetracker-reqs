@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-84">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a finished workout recorded with the strap, and one without.
+Steps: 1. Export each workout as GPX. 2. Inspect the track points.
+Expected: Points of the first workout carry a heart rate in the Garmin track point extension, except points with no reading; the second workout has none.</description>
+</object>

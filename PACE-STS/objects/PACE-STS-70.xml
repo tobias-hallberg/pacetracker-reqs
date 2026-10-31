@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-70">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: Read the default reconnect delays in the source.
+Expected: The longest delay is 30000 ms and the last delay repeats; no delay exceeds 30000 ms.</description>
+</object>

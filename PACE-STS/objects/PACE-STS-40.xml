@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-40">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">PaceWindowTest.steady 4 mps yields 250 sec per km</attr>
+  <description>Steps: Run the JUnit test for a steady 4 m/s over a 10 s window.
+Expected: Current pace is 250 s/km within 1 s/km. The test fails today.</description>
+</object>

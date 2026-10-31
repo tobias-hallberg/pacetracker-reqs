@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-107">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: saved workouts R1 Run 5.00 km in 25:00, R2 Run 5.00 km in 35:00, R3 Run 10.00 km in 50:00, and W1 Walk 5.00 km in 25:00. Steps: 1. Open each workout. 2. Compare the calories estimates.
+Expected: Each workout shows a calories estimate in kcal; W1 differs from R1 (activity type), R2 differs from R1 (pace), R3 differs from R1 (duration).</description>
+</object>

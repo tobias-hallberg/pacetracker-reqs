@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-128">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debug build on a non-rooted device.
+Steps: 1. Run adb shell ls on the app databases folder without run-as. 2. Open DatabaseModule.kt and read the database builder.
+Expected: The shell reports permission denied, and the database is created by file name in app-private storage.</description>
+</object>

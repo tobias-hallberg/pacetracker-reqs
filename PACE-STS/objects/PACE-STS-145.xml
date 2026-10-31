@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-145">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fresh install.
+Steps: 1. Open Settings and read the map style. 2. Select the map style three times, reading it after each selection.
+Expected: The initial style is Terrain. The selections show Minimal, Satellite, then Terrain again.</description>
+</object>

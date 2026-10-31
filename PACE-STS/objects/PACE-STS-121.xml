@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-121">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debug build, database viewer, a device that reports altitude and accuracy.
+Steps: 1. Record an outdoor session of 2 min and save it. 2. Read the stored route of the workout.
+Expected: Each fix that the device reported with altitude, horizontal accuracy or vertical accuracy holds each reported value; a fix without a reported altitude holds an empty value, not 0.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-115">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: with month selected, current-month workouts of 5.00 km in 25:00, 1.00 km in 10:00 and 12.00 km in 55:00; a 20.00 km workout in an earlier month.
+Steps: 1. Open the Stats screen. 2. Read total distance, average pace, longest distance, number of workouts, total duration, total calories and peak pace.
+Expected: Total distance 18.00 km; average pace 5:00 per km (5400 s / 18 km); longest distance 12.00 km; 3 workouts; total duration 1:30:00; total calories equal to the sum of the three workouts; peak pace equal to the shortest of the three workouts' peak paces; the earlier-month workout excluded from every figure.</description>
+</object>

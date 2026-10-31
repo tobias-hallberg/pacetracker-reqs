@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-32">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: session recording for 2 min. Steps: 1. Force-stop the app process with adb. 2. Open the app.
+Expected: The app asks whether to save the session recorded so far; confirming creates a workout with distance and time at most 10 s short of the point of the kill.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-42">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, a Run session with at least two completed splits.
+Steps: 1. Before the first fix, read the current pace on the Active screen. 2. Inject fixes at 4 m/s for 60 s and read the current pace. 3. Continue until two splits complete, then Finish. 4. Read average pace, split paces and Best pace on the Summary. 5. Set the unit to mile and read all four again.
+Expected: Current pace shows a dash in step 1 (0 s/km) and about 4:10 per km within 0:03 in step 2. All four paces show as minutes:seconds per unit in steps 4 and 5, and each mile value equals the kilometre value times 1.609344 within 1 s.</description>
+</object>

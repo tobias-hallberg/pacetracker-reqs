@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-20">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: outdoors, permissions granted. Steps: 1. Start and walk 100 m. 2. Select Pause; note elapsed time and distance; wait 30 s while standing still; note both again. 3. Select Resume; after 10 s note elapsed time.
+Expected: The state shows paused after step 2; elapsed time and distance differ by at most 1 s and 0.01 km between the two readings in step 2; after Resume the elapsed time reads the paused value plus 10 s plus or minus 2 s and distance is not below the paused value.</description>
+</object>

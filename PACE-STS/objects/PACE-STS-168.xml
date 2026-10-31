@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-168">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: notification permission granted.
+Steps: 1. Start a session, press the device Home button, select Finish in the notification and open the app. 2. Start a session, press Back until the Home screen shows, open the notification shade and select Finish.
+Expected: In step 1 the Summary screen for the session shows when the app opens. In step 2 the Summary screen for the session shows within 2 s of closing the shade.</description>
+</object>

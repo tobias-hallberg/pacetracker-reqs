@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-173">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fresh install, location permission granted.
+Steps: 1. Open Home and read the selected activity type. 2. Select Hike, select Start, record 1 min, select Finish and save. 3. Force-stop the app, reopen it and read the selection. 4. Select Walk without starting, and read the selection. 5. Delete the Hike workout, force-stop the app, reopen it and read the selection.
+Expected: Step 1 shows Run, step 3 shows Hike, step 4 shows Walk and step 5 shows Run.</description>
+</object>

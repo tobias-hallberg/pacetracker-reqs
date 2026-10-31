@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-69">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: paired strap, session recording; a screen recording or stopwatch is available.
+Steps: 1. Move the strap out of range or switch it off for 2 min. 2. Note the time of each Searching status shown on the Active screen. 3. Bring the strap back.
+Expected: The status changes to signal lost; the time between successive connection attempts (Searching statuses) is at most 30 s; after step 3 a bpm appears without user action.</description>
+</object>

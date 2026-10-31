@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-146">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fresh install.
+Steps: 1. Open Settings and note the selected accent colour. 2. Select each of the six accent colours in turn. 3. Go to the Home screen after each selection.
+Expected: Lime is selected on a fresh install. Exactly six accent colours (Lime, Tangerine, Electric, Magenta, Amber, Violet) are offered, and the Home screen highlight colour changes to match each selection.</description>
+</object>

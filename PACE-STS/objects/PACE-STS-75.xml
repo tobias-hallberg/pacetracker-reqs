@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-75">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Read the reconnect loop in the source. 2. Trace the events plugin missing, ANT+ adapter not detected and sensor error.
+Expected: Each of the three events ends the connection loop after the attempt that raised it, and the loop starts no further attempt.</description>
+</object>

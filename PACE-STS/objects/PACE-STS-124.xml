@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-124">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Open WorkoutDao.kt and read the function that stores a workout with its splits. 2. Open WorkoutRepository.kt and read which function inserts a finished workout.
+Expected: One function annotated as a database transaction inserts the workout row and the split rows, and the repository inserts a finished workout only through that function, so a failure leaves neither stored.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-131">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a build with database schema version 1 installed with 2 saved workouts, including splits.
+Steps: 1. Install the current build over it without uninstalling. 2. Open History and each workout. 3. Open DatabaseModule.kt and read the migrations registered.
+Expected: Both workouts are listed with unchanged distance, duration and splits; heart rate values of workouts recorded before heart rate support are empty; the upgrade ran MIGRATION_1_2 and did not fall back to destructive migration. LatLngSerializationTest.path stored before heart rate existed still decodes proves only the route decoding.</description>
+</object>

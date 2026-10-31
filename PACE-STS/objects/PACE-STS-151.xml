@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-151">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Select mile, Satellite map style and a non-Lime accent. 2. Force-stop the app. 3. Relaunch and open Settings.
+Expected: Mile, Satellite and the chosen accent are still selected.</description>
+</object>

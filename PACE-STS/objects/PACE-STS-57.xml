@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-57">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: phone with Bluetooth on and permissions granted, a BLE heart rate strap worn and awake.
+Steps: 1. Open the pairing sheet in Settings.
+Expected: The strap is listed by its name within 15 s; a BLE device that does not advertise the Heart Rate service is not listed.</description>
+</object>

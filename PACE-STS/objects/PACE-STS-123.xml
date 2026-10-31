@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-123">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debug build, database viewer, distance unit kilometre.
+Steps: 1. Record a Run of 2.5 km and finish it. 2. Read the stored splits of the workout.
+Expected: 3 splits, each with distance, duration and pace; the first 2 cover 1000 m and the third covers about 500 m and is the only split marked partial. SplitAccumulatorTest proves the split calculation only, not the stored rows.</description>
+</object>

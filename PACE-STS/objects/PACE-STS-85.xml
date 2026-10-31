@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-85">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: one workout with heart rate and one without.
+Steps: 1. Open each workout on the Workout Detail screen.
+Expected: A chart of heart rate against time appears only for the workout with heart rate; its time axis starts at the first timestamped location fix.</description>
+</object>

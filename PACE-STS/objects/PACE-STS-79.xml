@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-79">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: paired strap, session recording.
+Steps: 1. Switch the strap off for 30 s, then on. 2. Watch the displayed bpm until the first reading after reconnection.
+Expected: No bpm is shown between reconnection and the first valid reading; the previous value does not reappear.</description>
+</object>

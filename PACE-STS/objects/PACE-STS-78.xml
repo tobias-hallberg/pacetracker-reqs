@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-78">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: paired strap, session recording.
+Steps: 1. Observe the Active screen while the strap is searched for, connected, out of range, and in each failure case of PACE-STS-73, and with Bluetooth off at Start.
+Expected: A status text is shown for searching, signal lost, plugin missing, no ANT+ adapter and Bluetooth unavailable, each different from the others; no status text is shown while connected.</description>
+</object>

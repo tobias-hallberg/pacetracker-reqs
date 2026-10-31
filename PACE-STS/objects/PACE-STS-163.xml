@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-163">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: reference device fully charged, location permission granted.
+Steps: 1. Select Start and switch the screen off. 2. Supply movement for 4 h without opening the app. 3. Switch the screen on.
+Expected: The session is still in the recording state and its elapsed time is at least 4 h.</description>
+</object>

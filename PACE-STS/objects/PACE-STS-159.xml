@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-159">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Run aapt dump badging on the release APK. 2. Read the uses-feature-not-required entries for GPS, step counter and Bluetooth Low Energy. 3. Install the APK on an emulator image that lacks a step counter sensor.
+Expected: Each of the three features is listed as not required, and the installation on the emulator succeeds.</description>
+</object>

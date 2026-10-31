@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-30">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fill device storage so that database writes fail. Steps: 1. Start a session, record 1 min, Finish. 2. Read the Summary screen. 3. Free storage and select the save control.
+Expected: The Summary screen offers the save control and tells the user that the workout is not saved; after freeing storage the control saves the workout and it appears in History with the recorded distance and time.</description>
+</object>

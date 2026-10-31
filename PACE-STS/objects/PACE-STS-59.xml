@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-59">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: ANT+ strap and phone with the ANT+ service app; a BLE strap already paired.
+Steps: 1. Start ANT+ pairing and select the ANT+ strap in the ANT+ device picker. 2. Restart the app and open Settings.
+Expected: After step 2 the ANT+ strap is the paired sensor and the BLE strap is no longer paired.</description>
+</object>

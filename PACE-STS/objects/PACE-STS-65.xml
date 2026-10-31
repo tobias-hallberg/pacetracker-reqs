@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-65">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: BLE strap worn and paired; a reference heart rate (watch or chest display) is available.
+Steps: 1. Select Start. 2. Wait 30 s. 3. Compare the Active screen with the reference.
+Expected: The Active screen shows the strap as connected within 30 s of Start, and the displayed bpm is within 3 bpm of the reference (the 3 bpm tolerance is a test criterion, not a requirement).</description>
+</object>

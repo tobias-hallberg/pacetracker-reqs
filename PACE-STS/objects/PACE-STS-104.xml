@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-104">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: one saved workout. Steps: 1. Open the History screen. 2. Select the workout row.
+Expected: The Workout Detail screen opens for the selected workout.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-53">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a saved workout of at least 3 km.
+Steps: 1. With unit kilometre, open the workout and note Distance and Average pace. 2. Set the unit to mile and read both again.
+Expected: Distance in mi equals the km value divided by 1.609344 within 0.01. Pace in min/mi equals the min/km pace times 1.609344 within 1 s.</description>
+</object>

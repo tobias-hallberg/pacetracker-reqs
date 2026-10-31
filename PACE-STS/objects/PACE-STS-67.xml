@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-67">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: paired strap, session recording and connected.
+Steps: 1. Take the strap off the chest. 2. Wait 10 s. 3. Put it back on.
+Expected: After step 1 the app shows no bpm value (no 0 and no last value); after step 3 a bpm appears. Repeat with an ANT+ strap.</description>
+</object>

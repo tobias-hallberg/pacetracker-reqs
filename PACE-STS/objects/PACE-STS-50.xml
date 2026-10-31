@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-50">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east. The current pace is held constant for the last 30 s before Finish.
+Steps: 1. For each row, select Run and Start, hold the pace, select Finish at the given time and read Calories. Rows (pace per km, time, kcal): 11:00, 20:00, 147; 8:00, 20:00, 203; 7:00, 20:00, 240; 5:30, 24:00, 323; 5:00, 20:00, 289; 4:30, 20:00, 314.
+Expected: Calories match each row within 2 kcal.</description>
+</object>

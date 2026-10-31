@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-136">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a map key, device traffic through a capturing proxy, fresh install.
+Steps: 1. Open every bottom navigation tab. 2. Record and finish a 2 min session, open Summary and History and export a workout. 3. List the destination hosts and request contents. 4. Read the dependencies in the build file for crash-reporting and analytics libraries.
+Expected: All requests go to the map provider for styles or tiles, and 0 requests carry workout data, heart rate data or logs. Map tile coordinates are the only location information sent. The build has 0 crash-reporting or analytics libraries.</description>
+</object>

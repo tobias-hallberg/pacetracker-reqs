@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-171">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: three saved workouts, one with heart rate, and their export archive; a text file renamed to .zip.
+Steps: 1. Uninstall and reinstall the app. 2. Select the import row and choose the archive. 3. Open each workout. 4. Import the same archive again. 5. Import the renamed text file.
+Expected: Step 2 reports 3 workouts added. Each workout shows its original workout figures, splits, heart rate figures and route. Step 4 reports 0 workouts added and History still lists 3. Step 5 reports a failure and History still lists 3.</description>
+</object>

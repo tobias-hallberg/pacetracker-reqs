@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-156">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: at least one saved workout.
+Steps: 1. Open Settings and read the data size. 2. Run adb run-as ls -l on the workout database file and its -wal and -shm files, and add the sizes. 3. Inspect formatBytes in SettingsScreen.kt for the unit thresholds.
+Expected: The shown size equals the sum, within display rounding (whole KB, MB to one decimal), and the code selects bytes below 1024 bytes, KB from 1 KB to below 1 MB and MB from 1 MB, with 1 KB = 1024 bytes. Fails today (main file only).</description>
+</object>

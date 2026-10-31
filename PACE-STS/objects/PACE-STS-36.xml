@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-36">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east. Accuracy threshold: 20 m.
+Steps: 1. Select Start. 2. Inject fix A and fix B with 5 m accuracy and note the distance. 3. Inject a fix 500 m further with an accuracy of 30 m. 4. Read the distance.
+Expected: Distance is unchanged from step 2.</description>
+</object>

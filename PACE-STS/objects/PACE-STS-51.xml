@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-51">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: physical device with a step counter, activity recognition permission granted, then denied.
+Steps: 1. Walk 200 steps. 2. Select Start. 3. Walk 50 steps. 4. Select Pause, walk 30 steps and select Resume. 5. Walk 20 steps, wait 3 s, select Finish and read Steps. 6. Deny the permission and repeat with 50 steps.
+Expected: Steps read 70 (63 to 77) in step 5, not 100 or 300. In step 6 recording works and Steps show a dash. Fails today (steps taken during the pause are added).</description>
+</object>

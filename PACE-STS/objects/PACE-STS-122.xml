@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-122">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debug build, database viewer, heart rate sensor paired.
+Steps: 1. Record a 5 min session wearing the sensor and finish it. 2. Record a 60 s session with no sensor paired and finish it. 3. Read the stored average and maximum heart rate of both workouts.
+Expected: The first workout holds the average and maximum heart rate shown on its Summary screen; the second holds empty values, not 0. HeartRateAccumulatorTest proves the calculation only, not the stored values.</description>
+</object>

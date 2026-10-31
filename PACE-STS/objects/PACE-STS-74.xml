@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-74">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">ReconnectingHeartRateMonitorTest.an unusable adapter is terminal</attr>
+  <description>Expected: When the link reports an unusable ANT+ adapter, the monitor ends after one attempt with the adapter error and makes no retry. This proves the no-adapter case only; the other cases are covered by PACE-STS-73 and PACE-STS-75.</description>
+</object>

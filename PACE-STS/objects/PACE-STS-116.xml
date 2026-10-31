@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-116">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: month selected, four cases. Case 1: current month 10.00 km, previous month 8.00 km. Case 2: 5.90 km and 10.00 km. Case 3: current month 10.00 km, previous month empty, an earlier month 3.00 km. Case 4: all selected.
+Steps: 1. Open the Stats screen for each case. 2. Read the change.
+Expected: Case 1 25 %, case 2 -41 % (truncated); cases 3 and 4 show no percentage.</description>
+</object>

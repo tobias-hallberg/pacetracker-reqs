@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-63">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: phone without the ANT+ service app installed.
+Steps: 1. Start ANT+ pairing. 2. Use the offered control.
+Expected: The control opens the Google Play listing of the ANT+ service app.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-133">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Open data_extraction_rules.xml. 2. Read the cloud-backup section and the device-transfer section. 3. Open AndroidManifest.xml and read the dataExtractionRules attribute.
+Expected: The cloud-backup section and the device-transfer section each contain an exclude rule for the database domain, and the manifest references the file. A bmgr backup is not used, because allowBackup is false and a backup would be empty with or without the rule.</description>
+</object>

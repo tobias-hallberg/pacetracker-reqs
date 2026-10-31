@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-13">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. On Home select each of Run, Walk and Hike in turn, and check that no other type is offered. 2. For each, select Start, record 1 min and Finish. 3. Open the three workouts in History.
+Expected: The three workouts in History show the activity types Run, Walk and Hike, each matching the type selected before Start.</description>
+</object>

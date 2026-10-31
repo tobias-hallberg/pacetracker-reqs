@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-68">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">HeartRateMeasurementTest.strap not worn suppresses the reading</attr>
+  <description>Expected: A Heart Rate Measurement with sensor contact reported as not detected yields no bpm, and a value of 0 bpm yields no bpm (companion test: HeartRateMeasurementTest.zero bpm is treated as no reading). This proves the BLE parser only; the ANT+ path and the displayed result are covered by PACE-STS-67.</description>
+</object>

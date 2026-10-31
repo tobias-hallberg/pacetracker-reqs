@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-137">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Build the release variant. 2. Run aapt dump permissions on the APK, so that the permissions added by libraries are listed.
+Expected: Every listed permission is in the requirement's list, and ACCESS_BACKGROUND_LOCATION is absent.</description>
+</object>

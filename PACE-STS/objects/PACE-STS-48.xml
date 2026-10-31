@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-48">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">ElevationGainTest</attr>
+  <description>Steps: Run the JUnit tests of ElevationGainTest, which call elevationGain, the function that the session uses on its recorded path.
+Expected: Altitudes 100, 105, 112 and 120 m give 20 m of gain; 100, 110, 90 and 120 m give 40 m; changes of 1 m or less give 0 m; fixes without altitude give 0 m.</description>
+</object>

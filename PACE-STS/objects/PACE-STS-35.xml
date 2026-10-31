@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-35">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east. Points: A = 59.3000 N, 18.0000 E; B = 59.3000 N, 18.0200 E.
+Steps: 1. Select Start for a Run session. 2. Inject fix A and read the distance. 3. Inject fix B and read the distance. 4. Inject fix B again and read the distance. 5. Select Pause, inject a fix at 18.5000 E, wait 5 s and read the distance.
+Expected: Distance reads 0.00 km after step 2, 0.34 km (0.33 to 0.35) after step 3, 0.58 km (0.57 to 0.59) after step 4, and is unchanged after step 5.</description>
+</object>

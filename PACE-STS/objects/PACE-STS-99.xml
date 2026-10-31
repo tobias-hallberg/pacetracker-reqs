@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-99">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Block api.maptiler.com with the proxy, or enable airplane mode with a cleared map cache. 2. Open a workout with a route of at least 2 location fixes. 3. Wait 10 s.
+Expected: The route line shows over a plain background within 10 s. Not built today.</description>
+</object>

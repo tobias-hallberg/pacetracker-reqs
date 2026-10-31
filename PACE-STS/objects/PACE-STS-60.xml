@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-60">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: (a) Bluetooth permissions denied; (b) permissions granted and Bluetooth switched off; (c) a phone without the ANT+ service app.
+Steps: 1. Open the pairing sheet in cases a and b. 2. Start ANT+ pairing in case c.
+Expected: Case a shows that Bluetooth permissions are not granted; case b shows that Bluetooth is off; case c shows that the ANT+ service app is missing. No case shows an empty list without a cause. The causes no Bluetooth LE radio, scan error and ANT+ pairing error cannot be induced on a normal phone and are verified by PACE-STS-61.</description>
+</object>

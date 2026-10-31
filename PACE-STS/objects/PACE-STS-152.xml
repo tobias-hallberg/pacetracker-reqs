@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-152">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debuggable build with adb run-as access to the preferences DataStore file.
+Steps: 1. Write an unrecognised accent value and an invalid distance unit value into the stored preferences. 2. Launch the app and open Settings. 3. Replace the preferences file with random bytes and launch again.
+Expected: In both cases the app starts without crashing and Settings shows the default of each affected preference (kilometre, Lime accent, Terrain map style).</description>
+</object>

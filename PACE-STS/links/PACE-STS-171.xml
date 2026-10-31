@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<links source="PACE-STS-171">
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-195" type="verifies"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-196" type="verifies"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-197" type="verifies"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-198" type="verifies"/>
+</links>

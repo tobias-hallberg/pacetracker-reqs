@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-106">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a saved workout of 5.00 km, duration 25:00 (pause of 2 min excluded), whose fastest full split is 4:30 per km and whose final partial split is faster than 4:30 per km. Steps: 1. Open the workout. 2. Read the figures. 3. Set the distance unit to mile and read again.
+Expected: Distance 5.00 km, duration 25:00 and average pace 5:00 per km; peak pace 4:30 per km (partial split ignored); all distance and pace figures in miles in step 3.</description>
+</object>

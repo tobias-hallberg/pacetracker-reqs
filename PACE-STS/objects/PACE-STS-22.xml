@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-22">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: outdoors, permissions granted, battery optimisation left at its default. Steps: 1. Start and walk 250 m. 2. Lock the phone and keep walking 250 m for about 3 min. 3. Unlock the phone and read distance and elapsed time.
+Expected: Elapsed time has advanced by the real time passed plus or minus 2 s and distance has increased by at least 200 m during the locked period.</description>
+</object>

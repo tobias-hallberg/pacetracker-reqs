@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-125">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Open WorkoutDao.kt and read the conflict strategy of the workout insert and the split insert. 2. Open SplitEntity.kt and read the foreign key to the workout. 3. Read where the workout identifier of a saved session comes from.
+Expected: The workout insert replaces a row with the same primary key; the split foreign key deletes the splits of a replaced workout (cascade); the identifier is the session's identifier, so a second save of the same session writes the same row. A second save is not reachable from the UI once the first save succeeded, so a user-level check is not practical. LiveSessionFinishTest.service write and summary fallback target the same row proves only that both writes use the same identifier.</description>
+</object>

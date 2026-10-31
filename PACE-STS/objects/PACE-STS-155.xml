@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-155">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a saved workout and a read-only storage provider.
+Steps: 1. Export to a writable location. 2. Export to the read-only provider.
+Expected: The app tells the user the archive was written in the first case and that it was not written in the second. Known defect: success is reported when no output stream is available.</description>
+</object>

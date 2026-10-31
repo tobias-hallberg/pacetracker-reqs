@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-83">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">HeartRateAccumulatorTest.max tracks the peak even when brief</attr>
+  <description>Expected: The maximum equals the largest heart rate fed in, even when that value was brief. Restriction to recording-state time is proven by PACE-STS-81, not by this test.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-72">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">ReconnectingHeartRateMonitorTest.backoff grows then holds at the longest delay</attr>
+  <description>Expected: With a three-step delay schedule, the delays between attempts climb through the schedule and then stay at the last value without ending the attempts. Together with PACE-STS-70, this proves no delay exceeds 30 s.</description>
+</object>

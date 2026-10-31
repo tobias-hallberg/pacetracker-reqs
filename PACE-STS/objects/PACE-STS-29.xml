@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-29">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: one session with a paired sensor and one without. Steps: 1. Finish each session. 2. Read the Summary screen.
+Expected: Average and maximum heart rate in bpm appear only for the session with the sensor.</description>
+</object>

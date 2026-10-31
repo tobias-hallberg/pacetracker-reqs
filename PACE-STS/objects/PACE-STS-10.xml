@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-10">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fresh install, no permissions granted; run once on an Android 13 or later device and once on an Android 9 device. Steps: 1. Select Start. 2. Note each permission prompt. 3. Deny location.
+Expected: The prompts cover location on both devices, notifications on the Android 13 device only and activity recognition on the Android 10 or later device only; after denial the Home screen remains, no session exists and no session notification is shown.</description>
+</object>

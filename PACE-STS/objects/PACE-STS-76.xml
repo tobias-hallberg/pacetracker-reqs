@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-76">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: BLE strap paired, Bluetooth off at Start.
+Steps: 1. Select Start. 2. Switch Bluetooth on after 20 s.
+Expected: A connection attempt starts within 30 s of step 2 and a bpm appears.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-172">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">DefaultActivityTest</attr>
+  <description>Steps: Run DefaultActivityTest.
+Expected: Run, Walk and Hike each stay the default after a workout of that type; Interval and no saved workout both give Run. This proves the rule only; PACE-STS-173 covers the Home screen.</description>
+</object>

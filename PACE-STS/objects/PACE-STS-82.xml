@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-82">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Read the code that credits time to the heart rate average at each tick. 2. Read the average calculation.
+Expected: The time credited per tick is capped at 5 s, only recording-state ticks credit time, and the average is rounded to the nearest whole bpm with .5 rounded up.</description>
+</object>

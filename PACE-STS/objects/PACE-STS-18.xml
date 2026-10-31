@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-18">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: two saved workouts. Steps: 1. Open the Home screen.
+Expected: The distance, duration and average pace of the workout with the latest start time are shown.</description>
+</object>

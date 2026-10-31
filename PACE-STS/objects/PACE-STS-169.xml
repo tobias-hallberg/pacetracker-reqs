@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-169">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: current build installed with 2 saved workouts; a test build with a higher schema version and no migration.
+Steps: 1. Read the database builder in DatabaseModule.kt. 2. Install the test build over the current build and open the app. 3. Reinstall the current build, keeping the data, and open History.
+Expected: The builder has no destructive fallback, and after step 3 both workouts are listed with unchanged distance and duration. Fails today (the database is erased).</description>
+</object>

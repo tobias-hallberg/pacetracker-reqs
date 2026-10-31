@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-55">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Steps: 1. Read UnitFormatter.pace in app/app/src/main/java/com/pacemark/ui/format/UnitFormatter.kt. 2. Run UnitFormatterTest 'zero or negative pace renders placeholder'.
+Expected: The source returns the dash placeholder for a pace of 0 s/km or less and above 3600 s/km, and formats 3600 s/km as minutes and seconds. The JUnit test proves 0 and -1 only; the 3600 s/km boundary is proven by inspection.</description>
+</object>

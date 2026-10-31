@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-92">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Start a session and select the map icon. 2. Before the first location fix, read the map. 3. Walk outdoors for 2 min.
+Expected: With fewer than 2 location fixes no line shows. With 2 or more fixes a line shows from the first fix to the latest fix and gains a segment as each new fix arrives.</description>
+</object>

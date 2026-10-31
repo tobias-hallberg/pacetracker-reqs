@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-44">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east.
+Steps: 1. Select Start for a Run session. 2. Inject fixes at 3 m/s until the first split completes, at 4 m/s until the second completes, then at 5 m/s for about 400 m. 3. Select Finish. 4. Read the split rows, Best pace and Distance on the Summary.
+Expected: Two full splits of 1.00 km and a final split of about 0.40 km. Each split pace equals 1000 times its duration divided by its distance within 1 s/km. Split distances sum to Distance within 0.01 km. Best pace equals the smaller s/km value of the two full splits (the faster full split), not the pace of the shorter final split.</description>
+</object>

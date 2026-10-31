@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-103">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: three saved workouts of different activity types, distances and durations, saved out of start-time order; distance unit kilometre. Steps: 1. Open the History screen. 2. Read the rows. 3. Set the distance unit to mile and read the rows again.
+Expected: Rows run from latest to earliest start time; each row shows activity type, start date and time, distance, duration and average pace, with distance and pace converted to miles in step 3.</description>
+</object>

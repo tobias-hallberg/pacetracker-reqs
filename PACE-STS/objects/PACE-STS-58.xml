@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-58">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: as PACE-STS-57, plus a second strap.
+Steps: 1. Select the first strap. 2. Restart the app and open Settings. 3. Pair the second strap. 4. Select Forget for the paired sensor. 5. Restart the app.
+Expected: After step 2 the first strap is the paired sensor; after step 3 only the second strap is paired; after step 5 no paired sensor remains.</description>
+</object>

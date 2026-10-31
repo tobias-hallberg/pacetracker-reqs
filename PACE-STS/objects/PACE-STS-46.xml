@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-46">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">SplitAccumulatorTest</attr>
+  <description>Steps: Run SplitAccumulatorTest.
+Expected: A split completes exactly at the 1000 m boundary; 1200 m then 900 m complete two splits and leave 100 m (200 m excess carried); a 1609.344 m boundary completes a split at 1610 m. Passing proves the split rule for both distance units in isolation, not the recording-state gating (see PACE-STS-44).</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-73">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: (a) ANT+ strap paired, ANT+ service app uninstalled; (b) ANT+ strap paired, phone without ANT+ radio.
+Steps: 1. Select Start in each case. 2. Wait 2 min.
+Expected: The matching status (plugin missing, no ANT+ adapter) stays shown and the status never returns to searching in the 2 min. Sensor error cannot be induced and is verified by PACE-STS-75.</description>
+</object>

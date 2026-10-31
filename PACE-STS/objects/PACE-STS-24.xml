@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-24">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: notification permission granted. Steps: 1. Start a session and lock the phone. 2. Read the notification elapsed time and the Active screen elapsed time. 3. Use its Pause action, then its Resume action, then its Finish action; check the session state after each.
+Expected: The notification elapsed time is within 2 s of the Active screen; Pause is offered while recording and changes the state to paused; Resume is offered while paused and changes the state to recording; Finish ends the session.</description>
+</object>

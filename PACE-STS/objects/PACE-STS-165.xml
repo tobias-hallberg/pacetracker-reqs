@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-165">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: device with TalkBack switched on.
+Steps: 1. Open each screen of the app. 2. Move the TalkBack focus across every control that shows an icon without visible text.
+Expected: TalkBack announces a label for each such control.</description>
+</object>

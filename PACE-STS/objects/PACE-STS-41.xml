@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-41">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">PaceWindowTest.sub-0-5 mps speed keeps lastGood</attr>
+  <description>Steps: Run PaceWindowTest 'sub-0-5 mps speed keeps lastGood' (the 'empty window' and 'single sample' tests cover the same rule for fewer than two location fixes).
+Expected: With a window of 0.4 m/s the returned pace equals the previous pace of 420 s/km. The 10 s window length and the initial 0 s/km are not proven here (see PACE-STS-42).</description>
+</object>

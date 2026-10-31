@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-144">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: fresh install.
+Steps: 1. Open Settings and read the distance unit. 2. Save a workout of known distance and view it on History. 3. Select mile in Settings and view the same workout again.
+Expected: Kilometre is selected on a fresh install. After selecting mile, the workout distance equals the kilometre distance divided by 1.609 and the average pace per mile equals the pace per kilometre multiplied by 1.609, each within 0.5 % after allowing for display rounding.</description>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-120">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: debug build, database viewer (Android Studio App Inspection), distance unit kilometre.
+Steps: 1. Record a Run of 2.5 km (outdoors or simulated route). 2. Finish and save. 3. Read the workout row and its route.
+Expected: The row holds activity type Run, start, end, distance, duration, average pace, elevation gain, calories and steps, and the values equal those on the Summary screen. The route holds at least 2 fixes, each with latitude, longitude and a timestamp that rises from fix to fix.</description>
+</object>

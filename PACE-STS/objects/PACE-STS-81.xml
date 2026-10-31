@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-81">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: strap worn, session recording; a screen recording of the Active screen is available.
+Steps: 1. Run 5 min at a steady rate, then 1 min with the strap off. 2. Pause for 1 min while the heart rate changes. 3. Finish and open the workout. 4. From the recording, compute the mean of the bpm values shown during recording-state time, weighting each value by its display duration.
+Expected: The workout's average heart rate is within 1 bpm of the computed mean; neither the strap-off minute nor the paused minute changes it; maximum equals the highest bpm shown while recording. The 5 s cap is verified by PACE-STS-82.</description>
+</object>

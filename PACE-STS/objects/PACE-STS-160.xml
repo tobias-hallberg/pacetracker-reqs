@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-160">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: BLE heart rate sensor selected in Settings, location permission granted. Run three cases: Bluetooth switched off; Bluetooth connect permission denied; a device or emulator without a Bluetooth adapter.
+Steps: 1. Select Start. 2. Wait 60 s with moving mock location fixes. 3. Select Finish.
+Expected: In each case the session keeps counting time and distance and a workout is saved with no heart rate data.</description>
+</object>

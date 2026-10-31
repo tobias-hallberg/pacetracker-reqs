@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-94">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Finish a session with at least 2 location fixes. 2. Read the Summary screen. 3. Open the same workout from History. 4. Repeat with a workout of exactly 1 location fix.
+Expected: Summary and Workout Detail each show a map containing the workout's location fixes, for the 2-fix and the 1-fix workout.</description>
+</object>

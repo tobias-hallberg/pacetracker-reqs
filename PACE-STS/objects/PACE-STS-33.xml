@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-33">
+  <attr name="type">Test</attr>
+  <attr name="status">Draft</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: session recording outdoors. Steps: 1. Walk into a place without GPS reception, or switch device location off. 2. Wait 10 s.
+Expected: The app tells the user that the GPS signal is lost.</description>
+</object>

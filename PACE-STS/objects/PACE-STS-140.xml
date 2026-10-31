@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-140">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Inspection</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: the file exported for PACE-STS-139.
+Steps: 1. Read the time of the first and last track point. 2. Compare the first time with the workout start in History, converted to UTC.
+Expected: Each time is UTC in ISO 8601 extended format ending in Z, and the first time matches the start to the second.</description>
+</object>

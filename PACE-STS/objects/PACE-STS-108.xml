@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-108">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: workout X recorded with a heart rate sensor (average 148 bpm, peak 182 bpm) and workout Y recorded without a sensor. Steps: 1. Open X. 2. Open Y.
+Expected: X shows average 148 bpm and maximum 182 bpm; Y shows neither figure.</description>
+</object>

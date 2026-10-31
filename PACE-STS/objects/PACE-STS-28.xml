@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-28">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: outdoors, known 2.0 km course on level ground, stopwatch, pedometer app, Distance unit kilometre, Walk activity, then repeat with mile. Steps: 1. Start and walk the course. 2. Finish. 3. Read the Summary screen and compare with the stopwatch and the pedometer count.
+Expected: Distance is shown in the selected unit (2.0 km, 1.24 mi) with the deviation recorded against PACE-SRS-48; elapsed time within 2 s of the stopwatch; average pace within 1 s per unit of elapsed time divided by displayed distance; elevation gain shown in whole metres; calories within 1 kcal of 3.5 x 3.5 x 70 x elapsed minutes / 200; step count equal to the pedometer count plus or minus 5 %; 2 splits shown, each with pace within 1 s per unit of its split time divided by 1 unit.</description>
+</object>

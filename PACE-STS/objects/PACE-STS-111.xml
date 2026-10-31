@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-111">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a saved workout with splits, route, heart rate readings and a note; a way to read the database (adb run-as with sqlite3). Steps: 1. Count the rows for the workout in all tables. 2. Open the workout, select delete, cancel; check it is still listed. 3. Select delete and confirm. 4. Count the rows again.
+Expected: After cancelling nothing changes; after confirming the count is 0 in every table and the workout is not listed in History.</description>
+</object>

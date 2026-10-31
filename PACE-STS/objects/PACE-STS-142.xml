@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-142">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">GpxExporterTest</attr>
+  <description>Expected: The tests prove that a track point with heart rate 152 is written as the heart rate element inside the TrackPointExtension of namespace http://www.garmin.com/xmlschemas/TrackPointExtension/v1, and that a point without a reading gets no heart rate element.</description>
+</object>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-27">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: outdoors, permissions granted, Distance unit kilometre, then mile. Steps: 1. Start and walk a surveyed 500 m course at a steady pace while timing it. 2. Read current pace, distance and elapsed time on the Active screen at the end of the course. 3. Repeat with the unit set to mile.
+Expected: Elapsed time equals the stopwatch time plus or minus 2 s; distance is shown in the selected unit (about 0.50 km, about 0.31 mi); current pace is shown in minutes and seconds per selected unit and agrees with the stopwatch pace within the tolerance set by PACE-SRS-50 once decided.</description>
+</object>

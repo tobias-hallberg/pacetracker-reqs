@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-141">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a workout with route altitudes 100, 100, 100, 110, 100, 100, 100 (debug seeding), exported.
+Steps: 1. Read the elevation of the 4th track point in the file. 2. Export a workout whose fixes have no altitude and search for elevation elements.
+Expected: The 4th elevation is 100 (median of 7 points, not 110); the second file has 0 elevation elements and keeps latitude, longitude and time. PathSmootherTest.spike is tamed by surrounding context proves the median function only, not the export.</description>
+</object>

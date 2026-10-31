@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-101">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: device clock set to Wednesday 12:00; saved workouts: A 5.00 km 25:00 starting Sunday 23:50 of last week, B 1.00 km 10:00 starting Monday 00:10 this week, C 5.00 km 25:00 starting Tuesday 12:00 this week; distance unit kilometre. Steps: 1. Open the History screen. 2. Read the weekly summary and the day indicators.
+Expected: Total distance 6.00 km and 2 workouts (A excluded), average pace 5:50 per km (2100 s / 6 km, not the mean of paces), and only the Monday and Tuesday indicators marked.</description>
+</object>

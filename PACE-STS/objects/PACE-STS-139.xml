@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-139">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: a workout from an outdoor walk of 200 m, exported from Settings.
+Steps: 1. Validate the file against the GPX 1.1 schema with xmllint. 2. Read the file as UTF-8 and read the track name. 3. Compare the track points with the route of the workout.
+Expected: 0 schema errors; the XML declaration names UTF-8; the track name equals the activity type; the start time and the track points match the workout.</description>
+</object>

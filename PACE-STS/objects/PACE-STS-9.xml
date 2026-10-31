@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-9">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: device with location, notification and activity recognition permissions granted, GPS enabled. Steps: 1. Select Start. 2. Read the Active screen after 5 s.
+Expected: A session exists in the recording state; distance reads 0.00, steps 0 and calories 0 at the first reading; elapsed time reads 5 s plus or minus 2 s.</description>
+</object>

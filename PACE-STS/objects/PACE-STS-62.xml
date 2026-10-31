@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-62">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: phone with Bluetooth permissions denied.
+Steps: 1. Open the pairing sheet. 2. Use the offered control and grant the permissions.
+Expected: A control to request the permissions is present in step 1; after step 2 scanning starts and the strap is listed. Repeat on Android 11 or earlier (location permission) when a device is available.</description>
+</object>

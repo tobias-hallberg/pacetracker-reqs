@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-43">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup M: physical Android device with a mock location app selected, fine location permission granted, distance unit kilometre, fixes injected once per second along 59.3000 N moving east. Device date and time set manually.
+Steps: 1. Select Start for a Run session. 2. Inject fixes at 4 m/s for 300 s. 3. Select Pause, wait 15 s, select Resume. 4. Set the device clock forward 1 hour. 5. Inject fixes at 4 m/s for 300 s. 6. Select Finish. 7. On the Summary read Duration, Distance and Average pace.
+Expected: Duration is 10:00 (09:58 to 10:02). Average pace equals 1000 times Duration in seconds divided by Distance in metres, within 3 s/km.</description>
+</object>

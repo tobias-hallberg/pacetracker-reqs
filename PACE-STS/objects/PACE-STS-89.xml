@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-89">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Demonstration</attr>
+  <attr name="execution">Manual</attr>
+  <description>Setup: build with a valid map key, device with internet access and location permission. Steps: 1. Start a session. 2. Select the map icon. 3. Read the overlay on the map view.
+Expected: The core metrics of the session (pace, distance, elapsed time) show over the map and update while the session records.</description>
+</object>

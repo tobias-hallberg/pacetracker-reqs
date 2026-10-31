@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object id="PACE-STS-86">
+  <attr name="type">Test</attr>
+  <attr name="status">Active</attr>
+  <attr name="verification-method">Test</attr>
+  <attr name="execution">Automated</attr>
+  <attr name="test-ref">HeartRateChartMathTest.elapsed time is measured from the first timestamped point</attr>
+  <description>Expected: Chart time is measured from the first timestamped location fix. This proves the time origin only; that the chart appears only for a workout with heart rate is proven by PACE-STS-85.</description>
+</object>

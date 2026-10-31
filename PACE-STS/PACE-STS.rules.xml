@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+  <rule>
+    <when type="Test"/>
+    <then>
+      <attr name="status" status="required"/>
+      <attr name="verification-method" status="required"/>
+      <attr name="execution" status="required"/>
+      <link target-doc="PACE-SRS" status="required"/>
+    </then>
+  </rule>
+  <rule>
+    <when execution="Automated"/>
+    <then>
+      <attr name="test-ref" status="required"/>
+    </then>
+  </rule>
+  <rule>
+    <when type="Heading"/>
+    <then>
+      <attr name="status" status="forbidden"/>
+      <attr name="verification-method" status="forbidden"/>
+      <attr name="execution" status="forbidden"/>
+      <attr name="test-ref" status="forbidden"/>
+    </then>
+  </rule>
+  <rule>
+    <when type="Information"/>
+    <then>
+      <attr name="status" status="forbidden"/>
+      <attr name="verification-method" status="forbidden"/>
+      <attr name="execution" status="forbidden"/>
+      <attr name="test-ref" status="forbidden"/>
+    </then>
+  </rule>
+  <rule>
+    <when type="Note"/>
+    <then>
+      <attr name="status" status="forbidden"/>
+      <attr name="verification-method" status="forbidden"/>
+      <attr name="execution" status="forbidden"/>
+      <attr name="test-ref" status="forbidden"/>
+    </then>
+  </rule>
+</rules>
