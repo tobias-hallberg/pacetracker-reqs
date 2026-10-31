@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <links source="PACE-STS-17">
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-18" type="verifies"/>
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-188" type="verifies"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-18" type="verifies" ack="3d40d51"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-188" type="verifies" ack="3d40d51"/>
 </links>

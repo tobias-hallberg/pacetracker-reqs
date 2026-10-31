@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <links source="PACE-STS-101">
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-109" type="verifies"/>
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-110" type="verifies"/>
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-112" type="verifies"/>
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-111" type="verifies"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-109" type="verifies" ack="3d40d51"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-110" type="verifies" ack="3d40d51"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-112" type="verifies" ack="3d40d51"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-111" type="verifies" ack="3d40d51"/>
 </links>

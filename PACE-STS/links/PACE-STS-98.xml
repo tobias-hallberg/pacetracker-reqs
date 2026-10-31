@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <links source="PACE-STS-98">
-  <link target-doc="PACE-SRS" target-id="PACE-SRS-106" type="verifies"/>
+  <link target-doc="PACE-SRS" target-id="PACE-SRS-106" type="verifies" ack="3d40d51"/>
 </links>
