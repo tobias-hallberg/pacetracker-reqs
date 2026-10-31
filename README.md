@@ -92,7 +92,23 @@ A value nobody has decided yet is written `TBD`, in a `Proposed` requirement, wi
 
 **Finding gaps:** the saved filter **Unverified** in `PACE-SRS` lists implemented requirements with no test. Use it rather than the coverage percentage, which also counts `Proposed` and `Deferred` requirements and won't reach 100% while any exist without tests. The filter only runs in the Mellon GUI or library. Over MCP, use `coverage_report` and check each uncovered requirement's status.
 
-**Releases:** cut an issue tag (`PACE-SRS-issue-<n>`, `PACE-STS-issue-<n>`) only for an app release, not for ordinary commits.
+## Tracing to the code
+
+A comment in the app's sources names each requirement it implements, directly above the code that does the work:
+
+```kotlin
+// PACE-SRS-46: fixes worse than 20 m add no distance.
+```
+
+Several requirements can share a comment: `// PACE-SRS-46, PACE-SRS-47: ...`. XML files use `<!-- PACE-SRS-152: ... -->`. Each test class opens with a comment naming the requirements it verifies, and the `PACE-STS` tests it implements where a test object names it.
+
+To follow a requirement into the code, search the app repository for its ID, or list everything with `python tools/check_req_trace.py --list`. The same script runs in CI. It fails if an `Implemented` requirement has no reference, or if a comment names a missing, `Proposed` or `Deferred` requirement.
+
+Add the comment when you build a requirement, and move or remove it when the code changes.
+
+## Releases
+
+Cut an issue tag (`PACE-SRS-issue-<n>`, `PACE-STS-issue-<n>`) only for an app release, not for ordinary commits.
 
 ## Working through the Mellon MCP server
 

@@ -35,13 +35,13 @@ Pacemark stands alone on the user's phone. It interacts with:
 - Pairing a heart rate sensor, and recording heart rate.
 - Showing the route on a map.
 - Listing past workouts, showing their details, and deleting them.
-- Showing weekly and monthly statistics and personal records.
+- Showing statistics per week, month, year and whole history, and personal records.
 - Exporting the saved workouts as a backup, and restoring them.
 - Settings for units, map style and appearance.
 
 ## Privacy
 
-Your data, like your tracks and logs, doesn't leave the device unless you export it. The app has no account, no analytics and no crash reporting, and it excludes its database from Android backup and device transfer.
+Your data, like your tracks and logs, doesn't leave the device unless you export it. The app has no account, no analytics and no crash reporting, and it excludes its database, its preferences and the journal of a session in progress from Android backup and device transfer.
 
 Maps are the one thing to keep in mind. The app requests map tiles from the map provider over the internet. Those requests carry no workout data, but they show the provider your IP address and the area on screen, which for a recorded route is roughly where you went. Location fixes come from Google Play services, whose own data handling follows the device's Google settings and isn't controlled by the app.
 
@@ -53,8 +53,7 @@ People who run, walk or hike with a phone. They use the app outdoors, in motion 
 
 - **Google Play services:** location comes only from Google Play services, so a device without them can't record a session. F-Droid isn't planned for v1, because its main repository doesn't accept the non-free libraries the app depends on.
 - **Language:** the app's own text is in English only. Text drawn by Android follows the device language.
-- **Theme:** the app is dark-only today. A light theme is accepted but not built.
-- **Single device:** there is no sync. The app exports only the latest workout today. The accepted export and import move the saved workouts between devices through one archive.
+- **Single device:** there is no sync. Export and import move the saved workouts between devices through one archive, without the preferences.
 - **Body weight:** the app has no user profile, so calories assume a body mass of 70 kg and are an estimate.
 
 ## Assumptions and dependencies
@@ -114,7 +113,7 @@ The documents are written following clauses 5.2.4 to 5.2.8 (construct, character
 | preference | A choice on the Settings screen that the app stores on the device: distance unit, map style, accent colour or Dark theme switch |
 | recording state | The session is counting time and distance |
 | reference altitude | The altitude that elevation gain is measured from; it moves as the altitude changes |
-| reference device | The phone model used to measure performance targets, to be named by the owner |
+| reference device | The phone model used to measure performance targets, a Sony Xperia XQ-DE54 |
 | route | The ordered location fixes of a workout, each with latitude, longitude, timestamp and optional altitude, accuracy and heart rate values |
 | selected period | The current week, current calendar month, current calendar year or whole saved history chosen with the period selector |
 | session | A recording in progress, from Start until Finish |
@@ -124,7 +123,7 @@ The documents are written following clauses 5.2.4 to 5.2.8 (construct, character
 | split | The part of a workout covering one distance unit |
 | split pace | The elapsed time of a split divided by the length of the split |
 | stat view | The view of the Active screen that shows the session's live statistics |
-| Stats screen | The tab that shows monthly totals and personal records |
+| Stats screen | The tab that shows the totals of the selected period and personal records |
 | Summary screen | The screen shown after a session finishes, with the results of the session |
 | the app | Pacemark on the user's device |
 | valid reading | A heart rate above 0 bpm delivered by the paired sensor with sensor contact not reported as lost |
